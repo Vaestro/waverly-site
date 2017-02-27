@@ -22,13 +22,13 @@ export default class Index extends React.Component {
         </h1>
         <ul style={{listStyleType:"none",marginLeft:'0'}}>
           <li>
-            <a href="http://www.gethype.co/">Hype</a><FontAwesome name='arrow-circle-right'/>
+            <a href="http://www.gethype.co/">Hype</a><FontAwesome className="fa" name='arrow-circle-right'/>
           </li>
           <li>
-            <a href="http://www.awareapp.co">Aware (Coming Soon)</a><FontAwesome name='arrow-circle-right'/>
+            <a href="http://www.awareapp.co">Aware (Coming Soon)</a><FontAwesome className="fa" name='arrow-circle-right'/>
           </li>
           <li>
-            <a href="http://www.duriteusa.com">Durite USA</a><FontAwesome name='arrow-circle-right'/>
+            <a href="http://www.duriteusa.com">Durite USA</a><FontAwesome className="fa" name='arrow-circle-right'/>
           </li>
         </ul>
         <div className="footer">
