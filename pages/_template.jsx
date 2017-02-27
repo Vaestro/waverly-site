@@ -35,7 +35,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-            <img src={require('images/logo.PNG')}/>
+            <img src={require('images/logo.png')}/>
             </Link>
           </Container>
         </Headroom>
