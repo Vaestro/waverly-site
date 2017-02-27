@@ -17,7 +17,7 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "sample, something"},
           ]}
         />
-        <h1 style={{width:'750px'}}>
+        <h1 className="intro-title">
           We're a software design and development studio that is reimagining how businesses should work
         </h1>
         <ul style={{listStyleType:"none",marginLeft:'0'}}>
