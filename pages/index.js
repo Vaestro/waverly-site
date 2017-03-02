@@ -28,7 +28,7 @@ export default class Index extends React.Component {
             <a href="http://www.awareapp.co">Aware (Coming Soon)</a><FontAwesome className="fa" name='arrow-circle-right'/>
           </li>
           <li>
-            <a href="http://www.duriteusa.com">Durite USA</a><FontAwesome className="fa" name='arrow-circle-right'/>
+            <a href="http://www.durite.us">Durite USA</a><FontAwesome className="fa" name='arrow-circle-right'/>
           </li>
         </ul>
         <div className="footer">
