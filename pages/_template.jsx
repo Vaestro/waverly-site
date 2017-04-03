@@ -23,7 +23,7 @@ module.exports = React.createClass({
         >
           <Container
             style={{
-              maxWidth: 960,
+              maxWidth: '90%',
               paddingTop: 0,
               padding: `${rhythm(1)} ${rhythm(3/4)}`,
             }}
@@ -41,7 +41,7 @@ module.exports = React.createClass({
         </Headroom>
         <Container
           style={{
-            maxWidth: 960,
+            maxWidth: '90%',
             padding: `${rhythm(1)} ${rhythm(3/4)}`,
             paddingTop: 0,
           }}
