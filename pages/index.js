@@ -55,7 +55,7 @@ export default class Index extends React.Component {
                     <h3>Contact</h3>
                     <p>
                         <a href="mailto:contact@waverly.co">contact@waverly.co</a><br/>
-                        917.268.7306<br/>63 W 73rd ST<br/>
+                        63 W 73rd ST<br/>
                         New York, NY 10023</p>
                 </div>
             </div>
