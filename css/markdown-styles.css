@@ -1,0 +1,152 @@
+.banner {
+    background-image: url('https://s3.amazonaws.com/pearlventures/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 560px;
+    text-align: center;
+}
+
+
+/*.headerTitle{
+  margin: 0 auto;
+  width:500px;
+}*/
+
+.subtitle {
+    /*width:500px;
+  margin: 0 auto;*/
+    font-size: 24px;
+}
+
+.projectText {
+    font-size: 20px;
+}
+
+#typeform-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    padding: 0px 33px;
+    border-radius: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.projectContainer {
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.projectContent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    padding: 18px;
+}
+
+.warning:before {
+    content: '\26A0';
+    margin-right: 9px;
+}
+
+.rfc-page pre {
+    font-family: inherit;
+}
+
+.hljs-comment, .hljs-quote {
+    color: #998;
+    font-style: italic;
+}
+
+.hljs-keyword, .hljs-selector-tag, .hljs-subst {
+    color: #333;
+    font-weight: bold;
+}
+
+.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+    color: #008080;
+}
+
+.hljs-string, .hljs-doctag {
+    color: #d14;
+}
+
+.hljs-title, .hljs-section, .hljs-selector-id {
+    color: #900;
+    font-weight: bold;
+}
+
+.hljs-subst {
+    font-weight: normal;
+}
+
+.hljs-type, .hljs-class .hljs-title {
+    color: #458;
+    font-weight: bold;
+}
+
+.hljs-tag, .hljs-name, .hljs-attribute {
+    color: #000080;
+    font-weight: normal;
+}
+
+.hljs-regexp, .hljs-link {
+    color: #009926;
+}
+
+.hljs-symbol, .hljs-bullet {
+    color: #990073;
+}
+
+.hljs-built_in, .hljs-builtin-name {
+    color: #0086b3;
+}
+
+.hljs-meta {
+    color: #999;
+    font-weight: bold;
+}
+
+.hljs-deletion {
+    background: #fdd;
+}
+
+.hljs-addition {
+    background: #dfd;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
