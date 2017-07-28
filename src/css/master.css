@@ -1,0 +1,35 @@
+body {}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.grid-row {
+    padding: 50px 75px !important;
+}
+
+#iphone {
+  height:515px;
+}
+#studio {
+  height:750px;
+}
+
+@media (max-width: 800px) {
+  .grid-row {
+      padding: 10px 0px !important;
+  }
+
+  #studio {
+    height:250px;
+  }
+}
