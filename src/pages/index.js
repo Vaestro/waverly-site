@@ -67,7 +67,7 @@ export default class Index extends React.Component {
                                     <p style={{
                                         fontSize: '28px',
                                         marginBottom: 10,
-                                        fontWeight:'400'
+                                        fontWeight: '400'
                                     }}>Challenge your friends for charity</p>
                                     <p>We were asked to bring life to a business model. Meet Aware, the app that allows you to challenge your friends for charity that we built and designed from scratch.</p>
                                 </div>
@@ -88,7 +88,7 @@ export default class Index extends React.Component {
                                     <p style={{
                                         fontSize: '28px',
                                         marginBottom: 10,
-                                        fontWeight:'400'
+                                        fontWeight: '400'
                                     }}>Challenge your friends for charity</p>
                                     <p>We were asked to bring life to a business model. Meet Aware, the app that allows you to challenge your friends for charity that we built and designed from scratch.</p>
                                 </div>
@@ -107,7 +107,7 @@ export default class Index extends React.Component {
                             <p style={{
                                 fontSize: '24px',
                                 marginBottom: 10,
-                                fontWeight:'400'
+                                fontWeight: '400'
                             }}>View more of our work (coming soon)</p>
                         </Grid.Column>
                     </Grid.Row>
@@ -123,7 +123,7 @@ export default class Index extends React.Component {
                             <p style={{
                                 fontSize: '24px',
                                 marginBottom: 10,
-                                fontWeight:'400'
+                                fontWeight: '400'
                             }}>Become your best self</p>
                             <p>Every product that requires human interaction deserves great, thoughtful design. Our strategy first approach lets us craft products with a real purpose that leave lasting impressions. For us, design is so much more than rearranging pixels. We love working with good people on great ideas and turning them into outstanding products. We can launch your next MVP, improve and grow your existing products or partner up to become your on-demand A-Team.</p>
                         </Grid.Column>
@@ -165,28 +165,29 @@ export default class Index extends React.Component {
 
                             <p>We’re a close-knit team that shares a passion for designing delightful products and solving challenging problems. Strategy guides us throughout our creative process and we love discovering the essence behind an idea and what truly matters to people.</p>
                         </Grid.Column>
-                        <Grid.Column>
-                        </Grid.Column>
+                        <Grid.Column></Grid.Column>
                     </Grid.Row>
                     <Grid columns={2} stackable>
 
-                    <Grid.Row className="grid-row">
-                        <Grid.Column >
-                            <h3 style={{
-                                color: '#000',
-                                fontSize: '20px',
-                                fontWeight: '700',
-                                marginBottom: 10
-                            }}>Get in touch</h3>
+                        <Grid.Row className="grid-row">
+                            <Grid.Column >
+                                <h3 style={{
+                                    color: '#000',
+                                    fontSize: '20px',
+                                    fontWeight: '700',
+                                    marginBottom: 10
+                                }}>Interested in working with us?</h3>
 
-                            <p>contact@waverly.co<br/>63 w 73rd ST<br/>New York</p>
+                                <a id="typeform-button" class="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
+                                </a>
 
-                        </Grid.Column>
-                        <Grid.Column>
-                        </Grid.Column>
-                        <Grid.Column>
-                        </Grid.Column>
-                    </Grid.Row>
+                                <script dangerouslySetInnerHTML={{
+                                    __html: ` (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()`
+                                }}/>
+                            </Grid.Column>
+                            <Grid.Column></Grid.Column>
+                            <Grid.Column></Grid.Column>
+                        </Grid.Row>
                     </Grid>
                 </Grid>
 
