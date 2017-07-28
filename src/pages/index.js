@@ -89,8 +89,8 @@ export default class Index extends React.Component {
                                         fontSize: '28px',
                                         marginBottom: 10,
                                         fontWeight: '400'
-                                    }}>Challenge your friends for charity</p>
-                                    <p>We were asked to bring life to a business model. Meet Aware, the app that allows you to challenge your friends for charity that we built and designed from scratch.</p>
+                                    }}>Compete with your friends to make the best memes</p>
+                                    <p>Our team considered the ubiquity of memes in our digital world and wanted to experiment with a fun way to get people together to create memes</p>
                                 </div>
                             </div>
                         </Grid.Column>
