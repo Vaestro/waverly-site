@@ -24,25 +24,27 @@ export default class Template extends React.Component {
                 <Helmet title="Waverly Studios" meta={[
                     {
                         name: "description",
-                        content: "Sample"
+                        content: "Strategy, custom web application design and native iOS and branded digital experiences. We build digital products that help companies build amazing brands."
                     }, {
                         name: "keywords",
-                        content: "sample, something"
+                        content: "digital, product, consultant, studio, design, code, programming, apps, mobile, web, software, brands"
                     }
                 ]}/>
                 <Menu stackable secondary style={{
                     margin: `0 auto`,
                     maxWidth: '90%',
-                    padding: `0px 1.0875rem 1.45rem`,
                     paddingTop: 50
                 }}>
                     <Menu.Item >
-                        <p style={{
-                            fontSize: '24px',
-                            fontWeight: 100
-                        }}>WAVELRY</p>
-                    </Menu.Item>
 
+                        <Link style={{
+                            fontSize: '24px',
+                            fontWeight: 100,
+                            color:'black',
+                            textDecoration:'none'
+                        }} to="/">WAVELRY</Link>
+
+                    </Menu.Item>
 
                     {/*
                         <Menu.Item name='work' active={activeItem === 'work'}>

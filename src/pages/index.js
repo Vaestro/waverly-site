@@ -43,7 +43,7 @@ export default class Index extends React.Component {
                     <p style={{
                         fontSize: '24px',
                         paddingTop: '25px'
-                    }}>We design digital products and delightful experiences<br/>
+                    }}>We design and build digital products and amazing experiences<br/>
                         for startups, companies and ourselves.</p>
 
                     <div id="particles-header"></div>
@@ -104,11 +104,16 @@ export default class Index extends React.Component {
                                 fontWeight: '700',
                                 marginBottom: 10
                             }}>Our Portfolio</h3>
-                            <p style={{
+
+                            <Link style={{
                                 fontSize: '24px',
+                                fontWeight: 100,
+                                color:'black',
+                                textDecoration:'none',
                                 marginBottom: 10,
                                 fontWeight: '400'
-                            }}>View more of our work (coming soon)</p>
+
+                            }} to="/work/">View more of our work</Link>
                         </Grid.Column>
                     </Grid.Row>
                     <Divider/>
@@ -135,17 +140,17 @@ export default class Index extends React.Component {
                                 marginBottom: 10
                             }}>How we can help you</h3>
                             <p style={{
-                                fontSize: '24px',
+                                fontSize: '20px',
                                 marginBottom: 10
                             }}>Develop a minimum viable product</p>
                             <Divider/>
                             <p style={{
-                                fontSize: '24px',
+                                fontSize: '20px',
                                 marginBottom: 10
                             }}>Improve and grow your existing product</p>
                             <Divider/>
                             <p style={{
-                                fontSize: '24px',
+                                fontSize: '20px',
                                 marginBottom: 10
                             }}>Integrate us as your on-demand team</p>
                         </Grid.Column>
