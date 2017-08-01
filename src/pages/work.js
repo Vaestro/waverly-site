@@ -1,11 +1,10 @@
 import React from "react"
 import Link from "gatsby-link"
 import Helmet from "react-helmet"
-import particlesConfig from '../json/particles-config.json';
 import {Image, Button, Divider, Grid} from 'semantic-ui-react'
 import '../css/master.css';
 
-export default class Index extends React.Component {
+export default class Work extends React.Component {
     render() {
         return (
             <div>
@@ -24,8 +23,6 @@ export default class Index extends React.Component {
                         fontSize: '24px',
                         paddingTop: '25px'
                     }}>We work side-by-side with our clients to create something real.</p>
-
-                    <div id="particles-header"></div>
                 </div>
                 <Grid columns={2} stackable style={{
                     backgroundColor: 'white',
@@ -113,14 +110,14 @@ export default class Index extends React.Component {
                                     marginBottom: 10
                                 }}>Interested in working with us?</h3>
 
-                                <a id="typeform-button" class="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
+                                <a id="typeform-button" className="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
                                 </a>
 
                                 <script dangerouslySetInnerHTML={{
                                     __html: ` (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()`
                                 }}/>
                             </Grid.Column>
-                            <Grid.Column></Grid.Column>
+
                             <Grid.Column></Grid.Column>
                         </Grid.Row>
                     </Grid>

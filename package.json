@@ -1,29 +1,29 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Waverly Studios",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.0.1",
-    "gatsby-link": "^1.0.1",
-    "gatsby-plugin-react-helmet": "^1.0.1",
-    "particles.js": "dschau/particles.js#f421a5bd31efd572842645884c803c0c09d364fe",
-    "semantic-ui-react": "^0.68.5",
-    "gatsby-plugin-google-analytics": "^1.0.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^0.12.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "gatsby-starter-default",
+    "description": "Waverly Studios",
+    "version": "1.0.0",
+    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "dependencies": {
+        "gatsby": "^1.0.1",
+        "gatsby-link": "^1.0.1",
+        "gatsby-plugin-react-helmet": "^1.0.1",
+        "particles.js": "dschau/particles.js#f421a5bd31efd572842645884c803c0c09d364fe",
+        "semantic-ui-react": "^0.68.5",
+        "gatsby-plugin-google-analytics": "^1.0.0"
+    },
+    "devDependencies": {
+        "gh-pages": "^0.12.0"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "MIT",
+    "main": "n/a",
+    "scripts": {
+        "build": "gatsby build",
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+        "develop": "gatsby develop",
+        "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }

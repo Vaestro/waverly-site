@@ -21,7 +21,7 @@ export default class Index extends React.Component {
 
     componentWillUnmount() {
         if (this.Particles) {
-            this.Particles.destroy();
+
         }
     }
 
@@ -183,7 +183,7 @@ export default class Index extends React.Component {
                                     marginBottom: 10
                                 }}>Interested in working with us?</h3>
 
-                                <a id="typeform-button" class="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
+                                <a id="typeform-button" className="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
                                 </a>
 
                                 <script dangerouslySetInnerHTML={{
