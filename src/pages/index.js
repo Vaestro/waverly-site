@@ -43,7 +43,7 @@ export default class Index extends React.Component {
                     <p style={{
                         fontSize: '24px',
                         paddingTop: '25px'
-                    }}>We design and build digital products and amazing experiences<br/>
+                    }}>We design and build digital products and amazing brands<br/>
                         for startups, companies and ourselves.</p>
 
                     <div id="particles-header"></div>
@@ -84,13 +84,24 @@ export default class Index extends React.Component {
                                         fontSize: '20px',
                                         fontWeight: '700',
                                         marginBottom: 10
-                                    }}>Meme God</h3>
+                                    }}>Memes Against Friends</h3>
                                     <p style={{
                                         fontSize: '28px',
                                         marginBottom: 10,
                                         fontWeight: '400'
                                     }}>Compete with your friends to make the best memes</p>
                                     <p>Our team considered the ubiquity of memes in our digital world and wanted to experiment with a fun way to get people together to create memes</p>
+                                    <Link style={{
+                                        fontSize: '20px',
+                                        fontWeight: 100,
+                                        color:'black',
+                                        textDecoration:'none',
+                                        marginBottom: 10,
+                                        fontWeight: '400',
+                                        letterSpacing: '-0.28px',
+                                        borderBottom: 'solid 5px #00EC7A'
+
+                                    }} to="/memes-against-friends-case-study/">View case study</Link>
                                 </div>
                             </div>
                         </Grid.Column>
@@ -172,28 +183,28 @@ export default class Index extends React.Component {
                         </Grid.Column>
                         <Grid.Column></Grid.Column>
                     </Grid.Row>
-                    <Grid columns={2} stackable>
 
-                        <Grid.Row className="grid-row">
-                            <Grid.Column >
-                                <h3 style={{
-                                    color: '#000',
-                                    fontSize: '20px',
-                                    fontWeight: '700',
-                                    marginBottom: 10
-                                }}>Interested in working with us?</h3>
+                </Grid>
+                <Grid columns={2} stackable>
 
-                                <a id="typeform-button" className="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
-                                </a>
+                    <Grid.Row className="grid-row">
+                        <Grid.Column >
+                            <h3 style={{
+                                color: '#000',
+                                fontSize: '20px',
+                                fontWeight: '700',
+                                marginBottom: 10
+                            }}>Interested in working with us?</h3>
 
-                                <script dangerouslySetInnerHTML={{
-                                    __html: ` (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()`
-                                }}/>
-                            </Grid.Column>
-                            <Grid.Column></Grid.Column>
-                            <Grid.Column></Grid.Column>
-                        </Grid.Row>
-                    </Grid>
+                            <a id="typeform-button" className="typeform-share button" href="https://dopeatlas.typeform.com/to/lyD8J5" data-mode="drawer_left" target="_blank">Get in touch today
+                            </a>
+
+                            <script dangerouslySetInnerHTML={{
+                                __html: ` (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()`
+                            }}/>
+                        </Grid.Column>
+                        <Grid.Column></Grid.Column>
+                    </Grid.Row>
                 </Grid>
 
             </div>
