@@ -19,7 +19,7 @@ export default class MemesCaseStudy extends React.Component {
                 fontSize: '48px',
                 fontWeight: '700',
                 marginBottom: 10,
-                lineHeight:'48px',
+                lineHeight: '48px',
                 letterSpacing: '-0.67px'
               }}>Memes Against Friends</h3>
               <p style={{
@@ -29,17 +29,15 @@ export default class MemesCaseStudy extends React.Component {
               }}>A memes party game you play with your friends</p>
               <p>We wanted to combine our studio’s interest in memes, with the best platform for groups and ended up with Memes Against Friends: An app designed and developed exclusively for iMessage, centered on the idea of creating and sharing memes together in a fun way that has never been done before</p>
 
-
               <a style={{
                 fontSize: '20px',
                 fontWeight: 100,
-                color:'black',
-                textDecoration:'none',
+                color: 'black',
+                textDecoration: 'none',
                 marginBottom: 10,
                 fontWeight: '400',
                 letterSpacing: '-0.28px',
                 borderBottom: 'solid 5px #00EC7A'
-
               }} href="http://thememegod.com">Visit website</a>
             </Grid.Column>
             <Grid.Column >
@@ -51,8 +49,6 @@ export default class MemesCaseStudy extends React.Component {
             </Grid.Column>
 
           </Grid.Row>
-
-
 
         </Grid>
         <Grid columns={2} stackable>
