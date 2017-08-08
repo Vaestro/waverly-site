@@ -21,7 +21,7 @@ export default class Template extends React.Component {
 
         return (
             <div>
-                <Helmet title="Waverly Studios" meta={[
+                <Helmet title="Waverly & Co" meta={[
                     {
                         name: "description",
                         content: "Strategy, custom web application design and native iOS and branded digital experiences. We build digital products that help companies build amazing brands."
@@ -42,7 +42,7 @@ export default class Template extends React.Component {
                             fontWeight: 100,
                             color:'black',
                             textDecoration:'none'
-                        }} to="/">WAVERLY</Link>
+                        }} to="/"><b>WAVERLY</b>&CO</Link>
 
                     </Menu.Item>
 
