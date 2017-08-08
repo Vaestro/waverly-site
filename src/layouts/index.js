@@ -42,7 +42,7 @@ export default class Template extends React.Component {
                             fontWeight: 100,
                             color:'black',
                             textDecoration:'none'
-                        }} to="/">WAVELRY</Link>
+                        }} to="/">WAVERLY</Link>
 
                     </Menu.Item>
 
