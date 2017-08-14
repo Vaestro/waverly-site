@@ -6,10 +6,12 @@
     "dependencies": {
         "gatsby": "^1.0.1",
         "gatsby-link": "^1.0.1",
+        "gatsby-plugin-google-analytics": "^1.0.3",
         "gatsby-plugin-react-helmet": "^1.0.1",
         "particles.js": "dschau/particles.js#f421a5bd31efd572842645884c803c0c09d364fe",
+        "react-slick": "^0.14.11",
         "semantic-ui-react": "^0.68.5",
-        "gatsby-plugin-google-analytics": "^1.0.0"
+        "slick-carousel": "^1.7.1"
     },
     "devDependencies": {
         "gh-pages": "^0.12.0"

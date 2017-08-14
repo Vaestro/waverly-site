@@ -68,6 +68,16 @@ export default class Index extends React.Component {
                     fontWeight: '400'
                   }}>Challenge your friends for charity</p>
                   <p>We were asked to bring life to a business model. Meet Aware, the app that allows you to challenge your friends for charity that we built and designed from scratch.</p>
+                  <Link style={{
+                    fontSize: '20px',
+                    fontWeight: 100,
+                    color: 'black',
+                    textDecoration: 'none',
+                    marginBottom: 10,
+                    fontWeight: '400',
+                    letterSpacing: '-0.28px',
+                    borderBottom: 'solid 5px #00C7FF'
+                  }} to="/aware-case-study/">View case study</Link>
                 </div>
               </div>
             </Grid.Column>
