@@ -25,7 +25,12 @@ export default class MemesCaseStudy extends React.Component {
         <Contributions />
 
         <Slides
-          urls={[]}/>
+          urls={['https://s3.amazonaws.com/memegod/Device+1%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+2%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+3%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+4%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+5%402x.png'
+                ]}/>
 
         <WorkWithUs />
       </div>
