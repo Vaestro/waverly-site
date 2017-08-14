@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import {Image, Button, Divider, Grid} from 'semantic-ui-react'
 import '../css/master.css';
 import Slider from 'react-slick';
-import Slides from './memes-against-friends-slides';
+import Slides from '../components/slides';
 import Summary from '../components/case-study-summary';
 import Contributions from '../components/contributions';
 import WorkWithUs from '../components/work-with-us';
@@ -24,10 +24,8 @@ export default class MemesCaseStudy extends React.Component {
 
         <Contributions />
 
-        <Grid.Row className="grid-row">
-            <div style={{width:'80%', margin:'auto', borderTop:'3px solid #00EC7A'}}></div>
-            <Slides />
-        </Grid.Row>
+        <Slides
+          urls={[]}/>
 
         <WorkWithUs />
       </div>

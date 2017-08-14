@@ -5,16 +5,20 @@ import {Image, Button, Divider, Grid} from 'semantic-ui-react';
 export default (props) => {
   return(
     <div>
-      <Grid.Row className="grid-row">
-        <h4 style={{
-          color: '#000000',
-          fontSize: '20px',
-          fontWeight: '600',
-          lineHeight: '48px',
-          letterSpacing: '-0.67px'
-        }}>OUR CONTRIBUTIONS</h4>
-      </Grid.Row>
-      
+      <Grid columns={2} stackable>
+        <Grid.Row className="grid-row">
+          <Grid.Column>
+            <h4 style={{
+              color: '#000000',
+              fontSize: '20px',
+              fontWeight: '600',
+              lineHeight: '48px',
+              letterSpacing: '-0.67px'
+            }}>OUR CONTRIBUTIONS</h4>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+
       <Grid columns={2} stackable style={{
         backgroundColor: 'white'
       }}>

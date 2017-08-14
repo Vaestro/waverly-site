@@ -1,10 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import {Image, Button, Divider, Grid} from 'semantic-ui-react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
 export default class Slides extends React.Component {
+    renderSlides() {
+      return(
+        this.props.urls.map(url =>
+          <div className='slideItem' key={url}>
+            <img src={url}/>
+          </div>)
+      )
+    }
+
     render() {
       var settings = {
           dots: false,
@@ -18,22 +28,14 @@ export default class Slides extends React.Component {
           ]
       };
         return (
-          <div id="slideshow"  style={{marginTop:'75px'}}>
-            <Slider {...settings}>
-                <div className='slideItem'>
-                  1
-                </div>
-                <div className='slideItem'>
-                  2
-                </div>
-                <div className='slideItem'>
-                  3
-                </div>
-                <div className='slideItem'>
-                  4
-                </div>
-            </Slider>
-          </div>
+          <Grid.Row className="grid-row">
+            <div style={{width:'80%', margin:'auto', borderTop:'2px solid #000'}}></div>
+            <div id="slideshow"  style={{marginTop:'75px'}}>
+              <Slider {...settings}>
+                  {this.renderSlides.bind(this)()}
+              </Slider>
+            </div>
+          </Grid.Row>
         )
     }
 }
