@@ -22,8 +22,19 @@ export default class MemesCaseStudy extends React.Component {
           color='#00EC7A'
         />
 
-        <Contributions />
-
+        <Contributions
+          left={['Strategy',
+                 'Product Roadmapping',
+                 'User Research',
+                 'Design',
+                 'Branding']}
+          right={['Resposive Web Development',
+                  'Software Application Architecture',
+                  'iOS and Android Development',
+                  'Quality Assurance',
+                  'Analytics & Optimization']}
+        />
+        
         <Slides
           urls={['https://s3.amazonaws.com/memegod/Device+1%402x.png',
                  'https://s3.amazonaws.com/memegod/Device+2%402x.png',

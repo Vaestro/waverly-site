@@ -22,7 +22,18 @@ export default class MemesCaseStudy extends React.Component {
           color='#00C7FF'
         />
 
-        <Contributions />
+        <Contributions
+          left={['Strategy',
+                 'Product Roadmapping',
+                 'User Research',
+                 'Design',
+                 'Branding']}
+          right={['Resposive Web Development',
+                  'Software Application Architecture',
+                  'iOS and Android Development',
+                  'Quality Assurance',
+                  'Analytics & Optimization']}
+        />
 
         <Slides
           urls={['https://s3.amazonaws.com/aware-contentdelivery-mobilehub-479298082/Charity+Picker.png',
