@@ -6,6 +6,10 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
 export default class Slides extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+
     renderSlides() {
       return(
         this.props.urls.map(url =>
@@ -20,11 +24,11 @@ export default class Slides extends React.Component {
           dots: false,
           infinite: false,
           speed: 500,
-          slidesToShow: 4,
+          slidesToShow: this.props.urls.length,
           slidesToScroll: 1,
           responsive:[
             { breakpoint: 768, settings: { dots: true, slidesToShow: 1 } },
-            { breakpoint: 1024, settings: { slidesToShow: 4 } }
+            { breakpoint: 1024, settings: { slidesToShow: this.props.urls.length } }
           ]
       };
         return (

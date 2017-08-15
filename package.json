@@ -1,14 +1,14 @@
 {
-    "name": "gatsby-starter-default",
+    "name": "waverlyandco",
     "description": "Waverly & Co",
     "version": "1.0.0",
-    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "author": "Waverly & Co",
     "dependencies": {
-        "gatsby": "^1.0.1",
-        "gatsby-link": "^1.0.1",
+        "gatsby": "^1.8.11",
+        "gatsby-link": "^1.6.7",
         "gatsby-plugin-google-analytics": "^1.0.3",
-        "gatsby-plugin-react-helmet": "^1.0.1",
-        "particles.js": "dschau/particles.js#f421a5bd31efd572842645884c803c0c09d364fe",
+        "gatsby-plugin-react-helmet": "^1.0.2",
+        "particles.js": "github:dschau/particles.js#f421a5bd31efd572842645884c803c0c09d364fe",
         "react-slick": "^0.14.11",
         "semantic-ui-react": "^0.68.5",
         "slick-carousel": "^1.7.1"

@@ -3,7 +3,6 @@ import Link from "gatsby-link"
 import Helmet from "react-helmet"
 import {Image, Button, Divider, Grid} from 'semantic-ui-react'
 import '../css/master.css';
-import Slider from 'react-slick';
 import Slides from '../components/slides';
 import Summary from '../components/case-study-summary';
 import Contributions from '../components/contributions';
@@ -22,15 +21,26 @@ export default class MemesCaseStudy extends React.Component {
           color='#00EC7A'
         />
 
-        <Contributions />
+        <Contributions
+          left={['Strategy',
+                 'Product Roadmapping',
+                 'User Research',
+                 'Design',
+                 'Branding']}
+          right={['Resposive Web Development',
+                  'Software Application Architecture',
+                  'iOS and Android Development',
+                  'Quality Assurance',
+                  'Analytics & Optimization']}
+        />
 
         <Slides
-          urls={['https://s3.amazonaws.com/waverly-marketing-site/Screenshot+1.png',
-                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+2.png',
-                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+3.png',
-                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+4.png',
-                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+5.png'
-               ]}/>
+          urls={['https://s3.amazonaws.com/memegod/Device+1%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+2%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+3%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+4%402x.png',
+                 'https://s3.amazonaws.com/memegod/Device+5%402x.png'
+                ]}/>
 
         <WorkWithUs />
       </div>

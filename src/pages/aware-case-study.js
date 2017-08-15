@@ -3,7 +3,6 @@ import Link from "gatsby-link"
 import Helmet from "react-helmet"
 import {Image, Button, Divider, Grid} from 'semantic-ui-react'
 import '../css/master.css';
-import Slider from 'react-slick';
 import Slides from '../components/slides';
 import Summary from '../components/case-study-summary';
 import Contributions from '../components/contributions';
@@ -22,7 +21,18 @@ export default class MemesCaseStudy extends React.Component {
           color='#00C7FF'
         />
 
-        <Contributions />
+        <Contributions
+          left={['Strategy',
+                 'Product Roadmapping',
+                 'User Research',
+                 'Design',
+                 'Branding']}
+          right={['Resposive Web Development',
+                  'Software Application Architecture',
+                  'iOS and Android Development',
+                  'Quality Assurance',
+                  'Analytics & Optimization']}
+        />
 
         <Slides
           urls={['https://s3.amazonaws.com/aware-contentdelivery-mobilehub-479298082/Charity+Picker.png',
