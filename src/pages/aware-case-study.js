@@ -3,7 +3,6 @@ import Link from "gatsby-link"
 import Helmet from "react-helmet"
 import {Image, Button, Divider, Grid} from 'semantic-ui-react'
 import '../css/master.css';
-import Slider from 'react-slick';
 import Slides from '../components/slides';
 import Summary from '../components/case-study-summary';
 import Contributions from '../components/contributions';
