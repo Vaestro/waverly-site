@@ -13,14 +13,17 @@ export default (props) => {
               fontSize: '20px',
               fontWeight: '600',
               lineHeight: '48px',
-              letterSpacing: '-0.67px'
+              letterSpacing: '-0.67px',
+              marginBottom:0
             }}>OUR CONTRIBUTIONS</h4>
           </Grid.Column>
         </Grid.Row>
       </Grid>
 
       <Grid columns={2} stackable style={{
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        paddingTop:0,
+        marginTop:0
       }}>
         <Grid.Row className="grid-row">
           <Grid.Column>
@@ -34,9 +37,9 @@ export default (props) => {
           </Grid.Column>
           <Grid.Column >
             <ul className='contributions'>
-              <li>Resposive Web Development</li>
+              <li>Responsive Web Development</li>
               <li>Software Application Architecture</li>
-              <li>iOS and Android Development</li>
+              <li>iOS Development</li>
               <li>Quality Assurance</li>
               <li>Analytics & Optimization</li>
             </ul>
