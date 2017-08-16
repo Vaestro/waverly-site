@@ -35,11 +35,11 @@ export default class MemesCaseStudy extends React.Component {
         />
 
         <Slides
-          urls={['https://s3.amazonaws.com/memegod/Device+1%402x.png',
-                 'https://s3.amazonaws.com/memegod/Device+2%402x.png',
-                 'https://s3.amazonaws.com/memegod/Device+3%402x.png',
-                 'https://s3.amazonaws.com/memegod/Device+4%402x.png',
-                 'https://s3.amazonaws.com/memegod/Device+5%402x.png'
+          urls={['https://s3.amazonaws.com/waverly-marketing-site/Screenshot+1.png',
+                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+2.png',
+                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+3.png',
+                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+4.png',
+                 'https://s3.amazonaws.com/waverly-marketing-site/Screenshot+5.png'
                 ]}/>
 
         <WorkWithUs />
