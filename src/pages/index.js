@@ -64,11 +64,11 @@ export default class Index extends React.Component {
               color={'#00C7FF'}
             />
             <CaseStudyIndex
-              imgUrl={'https://s3.amazonaws.com/pearlventures/memegod_screenshot.png'}
-              title={'Memes Against Friends'}
-              headline={'Compete with your friends to make the best memes'}
-              description={'Our team considered the ubiquity of memes in our digital world and wanted to experiment with a fun way to get people together to create memes'}
-              to={'/memes-against-friends-case-study/'}
+              imgUrl={'https://s3.amazonaws.com/waverly-marketing-site/cointelligent.png'}
+              title={'Cointelligent'}
+              headline={'Anyone can make intelligent crypto investments'}
+              description={'Cryptocurrencies are making financial markets more open and free for everyone, but the learning curve is steep. Our team designed an app for cryptos that would make it easy for anyone to understand'}
+              to={'/cointelligent-case-study/'}
               color={'#00EC7A'}
             />
           </Grid.Row>
@@ -136,7 +136,7 @@ export default class Index extends React.Component {
             <Image src="https://s3.amazonaws.com/pearlventures/studio%403x.png" id="studio"/>
           </Grid.Row>
         </Grid>
-        
+
         <WorkWithUs />
       </div>
     )
