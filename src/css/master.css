@@ -1,21 +1,269 @@
-body {}
-
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Roboto', sans-serif;
+body {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10vw;
+  letter-spacing: 0.05em;
 }
 
-h1 {
-    font-weight: 700;
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
-p {
-    font-size: 20px;
-    font-weight: 300;
+a:hover {
+  color: #000;
 }
 
-.grid-row {
-    padding: 50px 100px !important;
+.clear {
+  clear: both;
 }
+
+#menu {
+  background-color: rgb(102, 111, 238);
+  width: 100%;
+  height: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes openMenu {
+    0% { height: 0; }
+  100% { height: 100%; }
+}
+
+@keyframes closeMenu {
+    0% { height: 100%; }
+  100% { height: 0; }
+}
+
+#menuBtn {
+  background-color: #fff;
+  color: #000;
+  margin: auto;
+  font-size: 3em;
+  width: 5em;
+  height: 5em;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px 0 rgba(32, 34, 65, 0.2), 0 1px 20px 0 rgba(32, 34, 65, 0.2);
+  position: relative;
+  top: -2.75em;
+}
+
+#menuBtn i {
+  position: relative;
+  top: 3.25em;
+}
+
+#menu a {
+  font-size: 4vw;
+  color: #fff;
+  position: relative;
+  top: -5vw;
+}
+
+.content {
+  margin-bottom: 10vw;
+  position: relative;
+}
+
+.header {
+  top: -7em;
+  margin-bottom: 0;
+}
+
+.menu {
+  margin: auto;
+  width: 12em;
+  height: 12em;
+  padding: 4em;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px 0 rgba(102, 111, 238, 0.3), 0 1px 20px 0 rgba(102, 111, 238, 0.3);
+}
+
+.menu i {
+  font-size: 2.25em;
+  position: relative;
+  top: 1.75em;
+  left: 0.45em;
+  color: #555;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: lighter;
+  float: left;
+}
+
+.logo h1 {
+  display: inline-block;
+}
+
+.getInTouch {
+  float: right;
+  font-size: 1.25em;
+  padding: 0.8em 1.8em;
+  border: 1px solid rgb(102, 111, 238);
+  border-radius: 3em;
+  background-color: rgb(102, 111, 238);
+  cursor: pointer;
+}
+
+.getInTouch a {
+  color: #fff;
+}
+
+.homeText {
+  float: left;
+  width: 45vw;
+}
+
+.homeText h1 {
+  font-size: 6vw;
+}
+
+.bar {
+  width: 24vw;
+  height: 1em;
+  background-color: rgb(102, 111, 238);
+  margin-bottom: 1em;
+}
+
+.homeText p {
+  font-size: 1.875vw;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.homeImg {
+  float: right;
+  width: 38vw;
+  margin-right: 5vw;
+}
+
+.homeImg img {
+  width: 100%;
+}
+
+.socialMedia {
+  position: absolute;
+  right: 0;
+  bottom: 8vw;
+}
+
+.socialMedia a {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  color: rgb(102, 111, 238);
+}
+
+.works {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 38vw;
+  margin-left: -1vw;
+  padding: 1vw;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.caseStudy {
+  margin-right: 2vw;
+  width: 35vw;
+  height: 35vw;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.caseStudy a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  padding-top: 25vw;
+  padding-left: 2vw;
+}
+
+.caseStudy h2 {
+  margin: 0;
+  font-size: 3vw;
+}
+
+.caseStudy h3 {
+  margin: 0;
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+.caseStudy p {
+  font-weight: 100;
+  color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  color: rgb(102, 111, 238);
+  font-size: 4vw;
+}
+
+.contact p {
+  font-size: 2.25vw;
+}
+
+#mc_embed_signup_scroll {
+  margin: auto;
+  margin-top: 2em;
+  width: 40vw;
+  height: 4em;
+  padding: 0.5em;
+  border-radius: 4em;
+  box-shadow: 0 1px 8px 0 rgba(162, 162, 162, 0.2), 0 1px 20px 0 rgba(162, 162, 162, 0.2);
+}
+
+#mce-EMAIL, #mc-embedded-subscribe {
+  display: inline-block;
+  height: 3em;
+  border: none;
+}
+
+#mce-EMAIL {
+  width: 23vw;
+  font-size: 1em;
+}
+
+#mc-embedded-subscribe {
+  float: right;
+  background-color: rgb(102, 111, 238);
+  color: #fff;
+  border-radius: 3em;
+  padding: 0.5em 2em;
+}
+
+
+
+
 
 #iphone {
   height:515px;
