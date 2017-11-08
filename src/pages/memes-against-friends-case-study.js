@@ -3,7 +3,6 @@ import Link from "gatsby-link"
 import Helmet from "react-helmet"
 import {Image, Button, Divider, Grid} from 'semantic-ui-react'
 import '../css/master.css';
-import Slider from 'react-slick';
 import Slides from '../components/slides';
 import Summary from '../components/case-study-summary';
 import Contributions from '../components/contributions';
@@ -34,7 +33,7 @@ export default class MemesCaseStudy extends React.Component {
                   'Quality Assurance',
                   'Analytics & Optimization']}
         />
-        
+
         <Slides
           urls={['https://s3.amazonaws.com/memegod/Device+1%402x.png',
                  'https://s3.amazonaws.com/memegod/Device+2%402x.png',
