@@ -12,25 +12,27 @@ export default class Index extends Component {
   render() {
     return(
       <div>
-        <div className='content home' id='home'>
+        <div className='entry1 content home' id='home'>
           <div className='homeText'>
             <h1>MAKE YOUR BIGGEST IDEAS HAPPEN</h1>
             <div className='bar'></div>
             <p>We are a full service digital product agency,<br/>
                delivering top-tier solutions for companies of all sizes.</p>
           </div>
-          <div className='homeImg'>
-            <img src={wordArt} alt='Waverly &Co'></img>
-          </div>
-          <div className='clear'></div>
-          <div className='socialMedia'>
-            <a href='https://www.facebook.com/waverlyandco/'><i className='fa fa-facebook'></i></a>
-            <a href='https://www.instagram.com/waverlycompany/'><i className='fa fa-instagram'></i></a>
-            <a href='https://twitter.com/waverlyandco'><i className='fa fa-twitter'></i></a>
+          <div className='entry2'>
+            <div className='homeImg'>
+              <img src={wordArt} alt='Waverly &Co'></img>
+            </div>
+            <div className='clear'></div>
+            <div className='socialMedia'>
+              <a href='https://www.facebook.com/waverlyandco/'><i className='fa fa-facebook'></i></a>
+              <a href='https://www.instagram.com/waverlycompany/'><i className='fa fa-instagram'></i></a>
+              <a href='https://twitter.com/waverlyandco'><i className='fa fa-twitter'></i></a>
+            </div>
           </div>
         </div>
 
-        <div className='content works' id='work'>
+        <div className='entry3 content works' id='work'>
           <CaseStudyIndex
             imgUrl={''}
             title={'AWARE'}
@@ -57,7 +59,7 @@ export default class Index extends Component {
           />
         </div>
 
-        <div className='content contact' id='contact'>
+        <div className='entry3 content contact' id='contact'>
           <h1>GET INSPIRED</h1>
           <p>Stay up to date with our latest developments</p>
           <div className="mc_embed_signup" dangerouslySetInnerHTML={{
