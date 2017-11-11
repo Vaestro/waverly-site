@@ -3,11 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-<<<<<<< HEAD
-  font-family: 'Source Sans Pro';
-=======
   font-family: 'Source Sans Pro', sans-serif;
->>>>>>> origin/case-studies
   color: #000;
 }
 
@@ -88,8 +84,6 @@ a:hover {
   position: relative;
   top: 2.5em;
   font-size: 3em;
-  z-index: 150;
-  cursor: pointer;
 }
 
 #menu .logo a {
@@ -122,21 +116,6 @@ a:hover {
   font-size: 1.5em;
 }
 
-#menu .menuContent {
-  opacity: 0;
-  margin-top: 10vw;
-}
-
-@keyframes menuEntry {
-    0% { opacity: 0; margin-top: 10vw;}
-  100% { opacity: 1; margin-top: 0;}
-}
-
-@keyframes menuLeave {
-    0% { opacity: 1;}
-  100% { opacity: 0;}
-}
-
 .content {
   position: relative;
   width: 90%;
@@ -165,7 +144,6 @@ a:hover {
   top: 1.75em;
   left: 0.45em;
   color: #555;
-  cursor: pointer;
 }
 
 .logo {
@@ -194,19 +172,12 @@ a:hover {
 
 .homeText {
   float: left;
-  width: 47vw;
-  padding: 2.5vw 0;
-  position: relative;
+  width: 45vw;
 }
 
 .homeText h1 {
-<<<<<<< HEAD
-  font-size: 6.5vw;
-  line-height: 6.5vw;
-=======
   font-size: 5vw;
   /*line-height:5vw;*/
->>>>>>> origin/case-studies
 }
 
 .bar {
@@ -219,14 +190,14 @@ a:hover {
 .homeText p {
   font-size: 1.67vw;
   margin: 0;
-  /*position: absolute;
-  bottom: 0;*/
+  position: absolute;
+  bottom: 0;
 }
 
 .homeImg {
   float: right;
-  width: 40vw;
-  margin-right: 2vw;
+  width: 38vw;
+  margin-right: 5vw;
 }
 
 .homeImg img {
@@ -371,8 +342,8 @@ a:hover {
   }
 
   #menuBtn i {
+    position: static;
     font-size: 2em;
-    top: 0em;
   }
 
   #menu .logo a {
@@ -432,8 +403,7 @@ a:hover {
   }
 
   .homeText h1 {
-    font-size: 12vw;
-    line-height: 12vw;
+    font-size: 11vw;
   }
 
   .bar {
@@ -443,7 +413,7 @@ a:hover {
   }
 
   .homeText p {
-    font-size: 6vw;
+    font-size: 5.5vw;
     position: static;
   }
 
@@ -500,14 +470,85 @@ a:hover {
     margin: 3em auto;
     margin-bottom: 5em;
     width: 80vw;
-    height: 3.75em;
   }
 
   #mce-EMAIL, #mc-embedded-subscribe {
-    height: 2.75em;
+    display: inline-block;
+    height: 3em;
+    border: none;
   }
 
   #mc-embedded-subscribe {
     padding: 0.25em 1.25em;
   }
+}
+
+
+
+
+
+
+
+#iphone {
+  height:515px;
+}
+#studio {
+  height:750px;
+}
+
+.contributions {
+  list-style: none;
+  margin-left: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: -0.67px;
+}
+
+.contributions li {
+  margin: 0;
+  line-height: 56px;
+  border-top: 2px solid #ddd;
+}
+
+.slideItem {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.slick-slide img {
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+@media (max-width: 800px) {
+  .grid-row {
+      padding: 10px 0px !important;
+  }
+
+  #studio {
+    height:250px;
+  }
+}
+
+#typeform-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    padding: 0px 33px;
+    border-radius: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

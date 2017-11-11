@@ -16,11 +16,11 @@ export default class Template extends React.Component {
     }
 
     openMenu() {
-      this.setState({animation:'openMenu 0.5s forwards', menuAnimation:'menuEntry 1s 0.5s forwards'})
+      this.setState({animation:'openMenu 0.8s forwards'})
     }
 
     closeMenu() {
-      this.setState({animation:'closeMenu 1s forwards', menuAnimation:'menuLeave 0.5s forwards'})
+      this.setState({animation:'closeMenu 0.8s forwards'})
     }
 
     render() {
@@ -40,18 +40,16 @@ export default class Template extends React.Component {
 
                 <div id='menu' style={{animation:`${this.state.animation}`}}>
                   <div id='menuBtn'><i className='fa fa-close' aria-hidden='true' onClick={this.closeMenu.bind(this)}></i></div>
-                  <div className='menuContent' style={{animation:`${this.state.menuAnimation}`}}>
-                    <div className='logo'>
-                      <Link to='/' onClick={this.closeMenu.bind(this)}><strong>WAVERLY</strong> &CO</Link>
-                    </div>
-                    <h1><Link to='/#home' onClick={this.closeMenu.bind(this)}>HOME</Link></h1>
-                    <h1><Link to='/#work' onClick={this.closeMenu.bind(this)}>WORK</Link></h1>
-                    <h1><Link to='/#contact' onClick={this.closeMenu.bind(this)}>CONTACT</Link></h1>
-                    <div className='socialMedia'>
-                      <a href='https://www.facebook.com/waverlyandco/'><i className='fa fa-facebook'></i></a>
-                      <a href='https://www.instagram.com/waverlycompany/'><i className='fa fa-instagram'></i></a>
-                      <a href='https://twitter.com/waverlyandco'><i className='fa fa-twitter'></i></a>
-                    </div>
+                  <div className='logo'>
+                    <Link to='/' onClick={this.closeMenu.bind(this)}><strong>WAVERLY</strong> &CO</Link>
+                  </div>
+                  <h1><Link to='/#home' onClick={this.closeMenu.bind(this)}>HOME</Link></h1>
+                  <h1><Link to='/#work' onClick={this.closeMenu.bind(this)}>WORK</Link></h1>
+                  <h1><Link to='/#contact' onClick={this.closeMenu.bind(this)}>CONTACT</Link></h1>
+                  <div className='socialMedia'>
+                    <a href='https://www.facebook.com/waverlyandco/'><i className='fa fa-facebook'></i></a>
+                    <a href='https://www.instagram.com/waverlycompany/'><i className='fa fa-instagram'></i></a>
+                    <a href='https://twitter.com/waverlyandco'><i className='fa fa-twitter'></i></a>
                   </div>
                 </div>
 

@@ -4,7 +4,9 @@ import Helmet from 'react-helmet';
 import '../css/master.css';
 
 import wordArt from '../css/word_art.svg';
-import Works from '../components/works';
+
+import CaseStudyIndex from '../components/case-study-index';
+import WorkWithUs from '../components/work-with-us';
 
 export default class Index extends Component {
   render() {
@@ -29,8 +31,33 @@ export default class Index extends Component {
             </div>
           </div>
         </div>
-        
-        <Works />
+
+        <div className='entry3 content works' id='work'>
+          <CaseStudyIndex
+            imgUrl={''}
+            title={'AWARE'}
+            others={'iOS, Server, Design'}
+            to={'/aware-case-study/'}
+          />
+          <CaseStudyIndex
+            imgUrl={''}
+            title={'MEME GOD'}
+            others={''}
+            to={'/memes-against-friends-case-study/'}
+          />
+          <CaseStudyIndex
+            imgUrl={''}
+            title={'AWARE'}
+            others={'iOS, Server, Design'}
+            to={'/aware-case-study/'}
+          />
+          <CaseStudyIndex
+            imgUrl={''}
+            title={'AWARE'}
+            others={'iOS, Server, Design'}
+            to={'/aware-case-study/'}
+          />
+        </div>
 
         <div className='entry3 content contact' id='contact'>
           <h1>GET INSPIRED</h1>
