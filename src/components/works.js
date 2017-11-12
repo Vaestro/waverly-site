@@ -15,7 +15,7 @@ export default () => {
       />
       <CaseStudyIndex
         imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/memes-case-study.png")'
-        title={'MEME GOD'}
+        title={'MEMES AGAINST FRIENDS'}
         others={'iOS, Server, Design'}
         to={'/#'}
       />
@@ -25,7 +25,24 @@ export default () => {
         others={'iOS, Server, Design'}
         to={'/#'}
       />
-
+      <CaseStudyIndex
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/maxicom-case-study.png")'
+        title={'MAXICOM'}
+        others={'Web, Server, Design'}
+        to={'/#'}
+      />
+      <CaseStudyIndex
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/durite-case-study.png")'
+        title={'DURITE'}
+        others={'Web, Server, Design'}
+        to={'/#'}
+      />
+      <CaseStudyIndex
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/hype-case-study.png")'
+        title={'HYPE'}
+        others={'iOS, Server, Design'}
+        to={'/#'}
+      />
     </div>
   )
 }
