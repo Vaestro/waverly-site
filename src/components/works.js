@@ -8,28 +8,40 @@ export default () => {
   return(
     <div className='entry3 content works' id='work'>
       <CaseStudyIndex
-        imgUrl={''}
-        title={'AWARE'}
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/cointelligent-case-study.png")'
+        title={'Cointelligent'}
         others={'iOS, Server, Design'}
-        to={'/aware-case-study/'}
+        to={'/cointelligent-case-study/'}
       />
       <CaseStudyIndex
-        imgUrl={''}
-        title={'MEME GOD'}
-        others={''}
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/memes-case-study.png")'
+        title={'MEMES AGAINST FRIENDS'}
+        others={'iOS, Server, Design'}
         to={'/memes-against-friends-case-study/'}
       />
       <CaseStudyIndex
-        imgUrl={''}
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/aware-case-study.png")'
         title={'AWARE'}
         others={'iOS, Server, Design'}
         to={'/aware-case-study/'}
       />
       <CaseStudyIndex
-        imgUrl={''}
-        title={'AWARE'}
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/maxicom-case-study.png")'
+        title={'MAXICOM'}
+        others={'Web, Server, Design'}
+        to={'/maxicom-case-study/'}
+      />
+      <CaseStudyIndex
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/durite-case-study.png")'
+        title={'DURITE'}
+        others={'Web, Server, Design'}
+        to={'/durite-case-study/'}
+      />
+      <CaseStudyIndex
+        imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/hype-case-study.png")'
+        title={'HYPE'}
         others={'iOS, Server, Design'}
-        to={'/aware-case-study/'}
+        to={'/hype-case-study/'}
       />
     </div>
   )

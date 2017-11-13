@@ -1,63 +1,91 @@
-#iphone {
-  height:515px;
-}
-#studio {
-  height:750px;
-}
-
-.contributions {
-  list-style: none;
-  margin-left: 0;
-  font-size: 16px;
-  font-family: sans-serif;
-  letter-spacing: -0.67px;
+.logoWork {
+  position: absolute;
+  top: -10.6em;
+  width: 24em;
+  text-align: right;
 }
 
-.contributions li {
-  margin: 0;
-  line-height: 56px;
-  border-top: 2px solid #ddd;
+.logoWork h1 {
+  font-weight: 500;
 }
 
-.slideItem {
-  padding: 0 10px;
+.colL, .colR {
+  display: inline-block;
+  width: 42vw;
+  margin-bottom: 5vw;
+}
+
+.colL {
+  float: left;
+  margin-right: 3vw;
+}
+
+.colR {
+  float: right;
+}
+
+.row1 h2 {
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+.row1 h3 {
+  font-size: 6vw;
+  line-height: 6.5vw;
+}
+
+.row1 p {
+  font-size: 1.25vw;
+  margin-bottom: 3vw;
+}
+
+.row1 a {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.casePhoto img {
+  width: 60%;
+  /*margin-left: 15%;*/
+}
+
+.row2 p {
+  font-size: 2vw;
+  color: #5C676D;
+  width: 75%;
+}
+
+
+
+
+
+
+
+.moreWork>h2, .footer {
   text-align: center;
 }
 
-.slick-slide img {
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px #888888;
+.moreWork {
+  margin-bottom: -33vw;
 }
 
-@media (max-width: 800px) {
-  .grid-row {
-      padding: 10px 0px !important;
-  }
-
-  #studio {
-    height:250px;
-  }
+.moreWork>h2 {
+  font-size: 3.5vw;
+  font-style: italic;
 }
 
-#typeform-button {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #000000;
-    color: white;
-    cursor: pointer;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    margin: 0;
-    height: 50px;
-    padding: 0px 33px;
-    border-radius: 25px;
-    max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.footer {
+  background-color: rgb(102, 111, 238);
+  padding-top: 30vw;
+  padding-bottom: 5vw;
+}
+
+.footer img {
+  width: 4vw;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 1.5vw;
+  margin-top: 1vw;
 }

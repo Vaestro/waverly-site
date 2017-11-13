@@ -251,11 +251,13 @@ a:hover {
 
 .caseStudy {
   margin-right: 2vw;
-  width: 35vw;
-  height: 35vw;
+  width: 37.5vw;
+  height: 30vw;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .caseStudy:hover {
@@ -266,8 +268,13 @@ a:hover {
   display: block;
   width: inherit;
   height: inherit;
-  padding-top: 25vw;
-  padding-left: 2vw;
+  position: relative;
+}
+
+.caseStudy a div {
+  position: absolute;
+  left: 2vw;
+  bottom: 2vw;
 }
 
 .caseStudy h2 {
@@ -458,9 +465,9 @@ a:hover {
     height: 75vw;
   }
 
-  .caseStudy a {
-    padding-top: 53vw;
-    padding-left: 4vw;
+  .caseStudy a div {
+    left: 4vw;
+    bottom: 4vw;
   }
 
   .caseStudy h2 {
