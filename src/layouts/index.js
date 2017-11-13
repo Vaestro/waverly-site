@@ -7,7 +7,9 @@ import '../css/master.css';
 
 export default class Template extends React.Component {
     state = {
-        activeItem: 'home'
+        menuOpen: false,
+        activeItem: 'home',
+        shadow: '0 1px 8px 0 rgba(102, 111, 238, 0.3), 0 1px 20px 0 rgba(102, 111, 238, 0.3)'
     }
 
     handleItemClick = (e, {name}) => this.setState({activeItem: name})
@@ -15,12 +17,28 @@ export default class Template extends React.Component {
         children: PropTypes.func
     }
 
-    openMenu() {
-      this.setState({animation:'openMenu 0.5s forwards', menuAnimation:'menuEntry 1s 0.5s forwards'})
-    }
-
-    closeMenu() {
-      this.setState({animation:'closeMenu 1s forwards', menuAnimation:'menuLeave 0.5s forwards'})
+    handleMenu() {
+      if (!this.state.menuOpen) {
+        this.setState({
+          menuOpen: true,
+          animation: 'openMenu 0.5s forwards',
+          menuAnimation: 'menuEntry 1s 0.5s forwards',
+          shadow: '0 1px 8px 0 rgba(32, 34, 65, 0.5), 0 1px 20px 0 rgba(32, 34, 65, 0.5)',
+          span1: {transform: 'translateY(0.65em) translateX(0) rotate(-45deg)'},
+          span2: {opacity: 0},
+          span3: {transform: 'translateY(-0.65em) translateX(0) rotate(45deg)'}
+        })
+      } else {
+        this.setState({
+          menuOpen: false,
+          animation: 'closeMenu 1s forwards',
+          menuAnimation: 'menuLeave 0.5s forwards',
+          shadow: '0 1px 8px 0 rgba(102, 111, 238, 0.3), 0 1px 20px 0 rgba(102, 111, 238, 0.3)',
+          span1: {},
+          span2: {opacity: 1},
+          span3: {}
+        })
+      }
     }
 
     render() {
@@ -39,14 +57,13 @@ export default class Template extends React.Component {
                 ]}/>
 
                 <div id='menu' style={{animation:`${this.state.animation}`}}>
-                  <div id='menuBtn'><i className='fa fa-close' aria-hidden='true' onClick={this.closeMenu.bind(this)}></i></div>
                   <div className='menuContent' style={{animation:`${this.state.menuAnimation}`}}>
                     <div className='logo'>
-                      <Link to='/' onClick={this.closeMenu.bind(this)}><strong>WAVERLY</strong> &CO</Link>
+                      <Link to='/' onClick={this.handleMenu.bind(this)}><strong>WAVERLY</strong> &CO</Link>
                     </div>
-                    <h1><Link to='/#home' onClick={this.closeMenu.bind(this)}>HOME</Link></h1>
-                    <h1><Link to='/#work' onClick={this.closeMenu.bind(this)}>WORK</Link></h1>
-                    <h1><Link to='/#contact' onClick={this.closeMenu.bind(this)}>CONTACT</Link></h1>
+                    <h1><Link to='/#home' onClick={this.handleMenu.bind(this)}>HOME</Link></h1>
+                    <h1><Link to='/#work' onClick={this.handleMenu.bind(this)}>WORK</Link></h1>
+                    <h1><Link to='/#contact' onClick={this.handleMenu.bind(this)}>CONTACT</Link></h1>
                     <div className='socialMedia'>
                       <a href='https://www.facebook.com/waverlyandco/'><i className='fa fa-facebook'></i></a>
                       <a href='https://www.instagram.com/waverlycompany/'><i className='fa fa-instagram'></i></a>
@@ -56,7 +73,14 @@ export default class Template extends React.Component {
                 </div>
 
                 <div className='content header'>
-                  <div className='menu'><i className='fa fa-bars' aria-hidden='true' onClick={this.openMenu.bind(this)}></i></div>
+                  <div className='menu'
+                    style={{boxShadow:`${this.state.shadow}`}}>
+                    <div className='navicon' onClick={this.handleMenu.bind(this)}>
+                      <span style={this.state.span1}></span>
+                      <span style={this.state.span2}></span>
+                      <span style={this.state.span3}></span>
+                    </div>
+                  </div>
                   <div className='logo'>
                     <Link to='/'><h1>WAVERLY</h1> &CO</Link>
                   </div>
