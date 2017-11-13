@@ -11,7 +11,8 @@ export default class CointelligentCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='COINTELLIGENT'
+          type='LAB'
+          name='COINTELLIGENT'
             headline='The most beautiful app for crypto news, prices, trends, and analysis'
             others='iOS, Server, Design'
             color='#00C7FF'

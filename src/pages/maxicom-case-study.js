@@ -11,7 +11,8 @@ export default class MaxicomCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='AWARE'
+          type='CLIENT'
+          name='MAXICOM'
             headline='Worlds first referral marketing platform'
             others='Web, Server, Design'
             color='#00C7FF'

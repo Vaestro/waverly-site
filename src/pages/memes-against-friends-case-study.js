@@ -11,7 +11,8 @@ export default class MemesCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='MEMES AGAINST FRIENDS'
+          type='LAB'
+          name='MEMES AGAINST FRIENDS'
             headline='A memes party game you play with your friends'
             others='iOS, Server, Design'
             color='#00EC7A'
