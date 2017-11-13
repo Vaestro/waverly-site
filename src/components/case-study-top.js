@@ -11,7 +11,7 @@ export default (props) => {
       <div className='logoWork'><Link to='/'><h1>| OUR WORK</h1></Link></div>
       <div className='row1'>
         <div className='colL'>
-          <h2>CLIENT &nbsp;&nbsp;&nbsp;{props.client}</h2>
+          <h2>{props.type} &nbsp;&nbsp;&nbsp;{props.name}</h2>
           <h3>{props.headline}</h3>
           <p>{props.others}</p>
           <a style={{borderBottom:`0.5vw solid ${props.color}`}} href={props.website}>Visit website</a>

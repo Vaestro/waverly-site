@@ -36,7 +36,7 @@ a:hover {
 
 @keyframes entry1 {
     0% { opacity: 0; top: 10vw;}
-  100% { opacity: 1; top: 0;}
+  100% { opacity: 1; top: 0vw;}
 }
 
 @keyframes entry2 {
@@ -67,27 +67,6 @@ a:hover {
     0% { width: 100vw; height: 100vh; border-radius: 0; left: 0;}
 }
 
-#menuBtn {
-  background-color: #fff;
-  color: #000;
-  margin: auto;
-  width: 12em;
-  height: 12em;
-  border-radius: 50%;
-  box-shadow: 0 1px 8px 0 rgba(32, 34, 65, 0.2), 0 1px 20px 0 rgba(32, 34, 65, 0.2);
-  position: relative;
-  top: -6.75em;
-  text-align: center;
-}
-
-#menuBtn i {
-  position: relative;
-  top: 2.5em;
-  font-size: 3em;
-  z-index: 150;
-  cursor: pointer;
-}
-
 #menu .logo a {
   color: #fff;
   position: absolute;
@@ -99,7 +78,7 @@ a:hover {
   margin-bottom: 4vw;
   position: relative;
   left: 5vw;
-  top: 3vw;
+  top: 15vw;
 }
 
 #menu h1 a {
@@ -137,7 +116,7 @@ a:hover {
   position: relative;
   width: 90%;
   margin: auto;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
 }
 
 .header {
@@ -146,22 +125,35 @@ a:hover {
 }
 
 .menu {
+  background-color: #fff;
+  position: relative;
+  z-index: 500;
   margin: auto;
   width: 12em;
   height: 12em;
   padding: 4em;
   border: 1px solid #eee;
   border-radius: 50%;
-  box-shadow: 0 1px 8px 0 rgba(102, 111, 238, 0.3), 0 1px 20px 0 rgba(102, 111, 238, 0.3);
 }
 
-.menu i {
-  font-size: 2.25em;
+.menu .navicon {
+  width: 2em;
+  height: 2em;
   position: relative;
-  top: 1.75em;
-  left: 0.45em;
-  color: #555;
+  top: 4.5em;
+  margin: auto;
   cursor: pointer;
+}
+
+.navicon span {
+  display: block;
+  width: inherit;
+  height: 0.35em;
+  margin-bottom: 0.3em;
+  background-color: #555;
+  opacity: 1;
+  -webkit-transition: all .12s linear;
+  transition: all .12s linear;
 }
 
 .logo {
@@ -190,14 +182,14 @@ a:hover {
 
 .homeText {
   float: left;
-  width: 47vw;
-  padding: 2.5vw 0;
+  width: 36vw;
+  padding-top: 1.5vw;
   position: relative;
 }
 
 .homeText h1 {
-  font-size: 6.5vw;
-  line-height: 6.5vw;
+  font-size: 5vw;
+  line-height: 5vw;
 }
 
 .bar {
@@ -208,16 +200,14 @@ a:hover {
 }
 
 .homeText p {
-  font-size: 1.875vw;
+  font-size: 1.75vw;
   margin: 0;
-  /*position: absolute;
-  bottom: 0;*/
 }
 
 .homeImg {
   float: right;
-  width: 40vw;
-  margin-right: 2vw;
+  width: 34vw;
+  margin-right: 5vw;
 }
 
 .homeImg img {
@@ -341,36 +331,20 @@ a:hover {
   }
 
   #menu {
+    width: 0;
+    height: 0;
     top: 3em;
     left: 95vw;
-    right: 5vw;
   }
 
   @keyframes openMenu {
-      0% { width: 0; height: 0; top: 3em; left: 95vw; right: 5vw;}
-    100% { width: 100vw; height: 100vh; top: 0; left: 0; right: 0;}
+      0% { width: 0; height: 0; top: 5em; left: 95vw;}
+    100% { width: 100vw; height: 100vh; top: 0; left: 0;}
   }
 
   @keyframes closeMenu {
-    100% { width: 0; height: 0; top: 3em; left: 95vw; right: 5vw;}
-      0% { width: 100vw; height: 100vh; top: 0; left: 0; right: 0;}
-  }
-
-  #menuBtn {
-    background-color: rgb(102, 111, 238);
-    color: #fff;
-    margin: 3em 5vw;
-    width: 2em;
-    height: 2em;
-    border-radius: 0;
-    box-shadow: none;
-    position: static;
-    float: right;
-  }
-
-  #menuBtn i {
-    font-size: 2em;
-    top: 0em;
+    100% { width: 0; height: 0; top: 3em; left: 95vw;}
+      0% { width: 100vw; height: 100vh; top: 0; left: 0;}
   }
 
   #menu .logo a {
@@ -404,10 +378,11 @@ a:hover {
     border-radius: 0;
     box-shadow: none;
     float: right;
+    box-shadow: none !important;
+    background-color: inherit;
   }
 
-  .menu i {
-    font-size: 2em;
+  .menu .navicon {
     position: static;
   }
 
@@ -422,7 +397,7 @@ a:hover {
   }
 
   .homeText {
-    top: 75vw;
+    top: 70vw;
   }
 
   .homeImg {
@@ -456,11 +431,13 @@ a:hover {
 
   .works {
     margin: 4em 3vw;
-    height: 80vw;
+    height: auto;
+    padding-bottom: 5vw;
+    flex-direction: column;
   }
 
   .caseStudy {
-    margin: 0 3vw;
+    margin: 3vw;
     width: 85vw;
     height: 75vw;
   }

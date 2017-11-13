@@ -9,7 +9,8 @@ export default class HypeCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='HYPE'
+          type='LAB'
+          name='HYPE'
             headline='Discover the Best Parties in NYC'
             others='iOS, Web, Server, Design'
             color='#00C7FF'

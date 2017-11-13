@@ -11,7 +11,8 @@ export default class AwareCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='AWARE'
+            type='CLIENT'
+            name='AWARE'
             headline='CHALLENGE YOUR FRIENDS FOR GOOD'
             others='iOS, Server, Design'
             color='#00C7FF'

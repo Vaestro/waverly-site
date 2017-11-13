@@ -10,7 +10,8 @@ export default class DuriteCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='HYPE'
+          type='CLIENT'
+          name='DURITE'
             headline='The Best in Terrazo Manufacturing'
             others='Web, Server, Design'
             color='#00C7FF'
