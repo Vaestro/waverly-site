@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 export default (props) => {
   return(
-    <div className='entry3 caseStudy' style={{ backgroundImage:`${props.imgUrl}`, backgroundSize:'cover' }}>
+    <div className='entry3 caseStudy' style={{backgroundImage:`${props.imgUrl}`}}>
       <Link to={props.to}>
         <div>
           <h2>{props.title}</h2>

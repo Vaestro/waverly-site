@@ -1,7 +1,7 @@
 .logoWork {
   position: absolute;
-  top: -10.6em;
-  width: 24em;
+  top: -5.3em;
+  width: 23.2em;
   text-align: right;
 }
 
@@ -26,21 +26,22 @@
 
 .row1 h2 {
   font-weight: 400;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .row1 h3 {
-  font-size: 6vw;
+  font-size: 6.25vw;
   line-height: 6.5vw;
+  margin: 0.25em 0;
 }
 
 .row1 p {
-  font-size: 1.25vw;
-  margin-bottom: 3vw;
+  font-size: 1.75vw;
+  margin-bottom: 2.75vw;
 }
 
 .row1 a {
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: 600;
 }
 
@@ -88,4 +89,87 @@
   color: #fff;
   font-size: 1.5vw;
   margin-top: 1vw;
+}
+
+@media only screen and (max-width: 440px) {
+  .logoWork {
+    display: none;
+  }
+
+  .colL, .colR {
+    float: none;
+    display: block;
+    width: 90vw;
+    margin: 5vw auto;
+  }
+
+  .row1 h2 {
+    font-size: 7vw;
+  }
+
+  .row1 h3 {
+    font-size: 11vw;
+    line-height: 11vw;
+  }
+
+  .row1 p {
+    font-size: 4.5vw;
+    margin-bottom: 8vw;
+  }
+
+  .row1 a {
+    display: none;
+  }
+
+  .casePhoto img {
+    width: 90%;
+    /*margin-left: 15%;*/
+  }
+
+  .row2 h2 {
+    font-size: 7vw;
+  }
+
+  .row2 p {
+    font-size: 5vw;
+    color: #5C676D;
+    width: 85%;
+  }
+
+
+
+
+
+
+
+  .moreWork {
+    margin-bottom: -415vw;
+  }
+
+  .moreWork>h2 {
+    font-size: 9vw;
+    margin-top: 12vw;
+  }
+
+  .moreWork .works {
+    margin: 0 5vw;
+    margin-bottom: 6vw;
+  }
+
+  .footer {
+    background-color: rgb(102, 111, 238);
+    padding-top: 420vw;
+    padding-bottom: 10vw;
+    width: 100%;
+  }
+
+  .footer img {
+    width: 25vw;
+  }
+
+  .footer p {
+    font-size: 6vw;
+    width: 50%;
+    margin: 5vw auto;
+  }
 }
