@@ -11,14 +11,15 @@ export default class MemesCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='AWARE'
-            headline='CHANGLENGE YOUR FRIENDS FOR GOOD'
-            others='iOS, Server, Design'
+            type='LAB'
+            name='HYPE'
+            headline='Discover the Best Parties in NYC'
+            others='iOS, Web, Server, Design'
             color='#00C7FF'
-            website='http://www.awareapp.co/'
-            imgUrl='https://s3.amazonaws.com/pearlventures/aware_screenshot.png'
-            challenge='Help design a startup venture and digital product that connects investors to companies making a positive impact in the world.'
-            outcome='Swell, a fully-backed startup and impact investment platform that allows consumers to invest in portfolios of stocks that align with their values.'
+            website='http://www.gethype.co/'
+            imgUrl='https://s3.amazonaws.com/pearlventures/hype_screenshot.png'
+            challenge='The nightlife industry operates under antiquated standards that leave partygoers worse off. We wanted to create an app that would make it easy for anyone to discover and access the best nightlife events with a tap of a button'
+            outcome='Hype, an iOS app that made it easy to purchase a ticket, book premium table service, or match with a nightlife concierge at dozens of the best nightclubs in NYC'
           />
         </div>
 

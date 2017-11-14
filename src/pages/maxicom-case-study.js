@@ -11,14 +11,15 @@ export default class MemesCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='AWARE'
-            headline='CHANGLENGE YOUR FRIENDS FOR GOOD'
-            others='iOS, Server, Design'
+            type='CLIENT'
+            name='MAXICOM'
+            headline='Worlds first referral marketing platform'
+            others='Web, Server, Design'
             color='#00C7FF'
             website='http://www.awareapp.co/'
-            imgUrl='https://s3.amazonaws.com/pearlventures/aware_screenshot.png'
-            challenge='Help design a startup venture and digital product that connects investors to companies making a positive impact in the world.'
-            outcome='Swell, a fully-backed startup and impact investment platform that allows consumers to invest in portfolios of stocks that align with their values.'
+            imgUrl='https://s3.amazonaws.com/pearlventures/maxicom_screenshot.png'
+            challenge='Help design a startup venture and digital product that offers an ecosystem for referrers to earn a commission on referrals'
+            outcome='Maxicom, a web app built with Ruby on Rails that allowed users to sign up as finders or businesses. Finders could refer business on the site to any of the listed businesses and be rewarded with comission on each transaction'
           />
         </div>
 

@@ -11,14 +11,15 @@ export default class MemesCaseStudy extends Component {
       <div>
         <div className='content'>
           <CaseStudyTop
-            client='AWARE'
-            headline='CHANGLENGE YOUR FRIENDS FOR GOOD'
-            others='iOS, Server, Design'
+            type='CLIENT'
+            name='DURITE'
+            headline='The Best in Terrazo Manufacturing'
+            others='Web, Server, Design'
             color='#00C7FF'
-            website='http://www.awareapp.co/'
-            imgUrl='https://s3.amazonaws.com/pearlventures/aware_screenshot.png'
-            challenge='Help design a startup venture and digital product that connects investors to companies making a positive impact in the world.'
-            outcome='Swell, a fully-backed startup and impact investment platform that allows consumers to invest in portfolios of stocks that align with their values.'
+            website='http://www.duriteusa.com/'
+            imgUrl='https://s3.amazonaws.com/pearlventures/durite_screenshot.png'
+            challenge='We were tasked with overhauling the website for one of the largest manufacturers of Terrazo in the USA.'
+            outcome='We created a brand new sleek website for Durites potential customers that educated them on Terrazo and provided them an inquiry form to provide Durite with more qualified leads.'
           />
         </div>
 

@@ -10,15 +10,16 @@ export default class MemesCaseStudy extends Component {
     return(
       <div>
         <div className='content'>
-          <CaseStudyTop
-            client='AWARE'
-            headline='CHANGLENGE YOUR FRIENDS FOR GOOD'
+        <CaseStudyTop
+          type='LAB'
+          name='COINTELLIGENT'
+            headline='The most beautiful app for crypto news, prices, trends, and analysis'
             others='iOS, Server, Design'
             color='#00C7FF'
-            website='http://www.awareapp.co/'
-            imgUrl='https://s3.amazonaws.com/pearlventures/aware_screenshot.png'
-            challenge='Help design a startup venture and digital product that connects investors to companies making a positive impact in the world.'
-            outcome='Swell, a fully-backed startup and impact investment platform that allows consumers to invest in portfolios of stocks that align with their values.'
+            website='http://www.cointelligent.io/'
+            imgUrl='https://s3.amazonaws.com/waverly-marketing-site/cointelligent.png'
+            challenge='Design a digital product to help a mainstream audience understand the new world of cryptocurrencies'
+            outcome='Cointelligent, an iOS app that combines all the most important info into one integrated and simple interface'
           />
         </div>
 
