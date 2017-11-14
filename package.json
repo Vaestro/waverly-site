@@ -10,7 +10,6 @@
         "gatsby-plugin-react-helmet": "^1.0.2",
         "particles.js": "github:dschau/particles.js#f421a5bd31efd572842645884c803c0c09d364fe",
         "react-slick": "^0.14.11",
-        "semantic-ui-react": "^0.68.5",
         "slick-carousel": "^1.7.1"
     },
     "devDependencies": {
