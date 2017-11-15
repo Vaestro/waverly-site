@@ -3,8 +3,6 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import '../css/case-study.css';
 
-import wordArt from '../css/word_art.svg';
-
 export default (props) => {
   return(
     <div>

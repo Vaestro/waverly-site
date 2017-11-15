@@ -29,7 +29,7 @@ export default class Index extends Component {
             </div>
           </div>
         </div>
-        
+
         <Works />
 
         <div className='entry3 content contact' id='contact'>

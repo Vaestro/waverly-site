@@ -7,14 +7,22 @@ import '../css/master.css';
 
 export default class Template extends React.Component {
     state = {
-        menuOpen: false,
-        activeItem: 'home',
-        shadow: '0 1px 8px 0 rgba(102, 111, 238, 0.3), 0 1px 20px 0 rgba(102, 111, 238, 0.3)'
+      loading: '',
+      menuOpen: false,
+      activeItem: 'home',
+      shadow: '0 1px 8px 0 rgba(102, 111, 238, 0.3), 0 1px 20px 0 rgba(102, 111, 238, 0.3)'
     }
 
     handleItemClick = (e, {name}) => this.setState({activeItem: name})
     static propTypes = {
         children: PropTypes.func
+    }
+
+    componentWillReceiveProps(window) {
+      this.setState({ loading: 'loading 1s'});
+      setTimeout(() => {
+        this.setState({ loading: ''});
+      }, 1000);
     }
 
     handleMenu() {
@@ -56,6 +64,7 @@ export default class Template extends React.Component {
                     }
                 ]}/>
 
+                <div className='loadingBar' style={{animation:`${this.state.loading}`}}></div>
                 <div id='menu' style={{animation:`${this.state.animation}`}}>
                   <div className='menuContent' style={{animation:`${this.state.menuAnimation}`}}>
                     <div className='logo'>

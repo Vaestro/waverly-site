@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-size: 14px;
   letter-spacing: 0.01em;
 }
@@ -46,6 +46,21 @@ a:hover {
 @keyframes entry2 {
     0% { opacity: 0; top: 15vw;}
   100% { opacity: 1; top: 0;}
+}
+
+.loadingBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgb(102, 111, 238);
+  width: 0;
+  height: 3px;
+}
+
+@keyframes loading {
+    0% { width: 0; }
+  100% { width: 105vw; }
 }
 
 #menu {
@@ -413,7 +428,7 @@ a:hover {
   }
 
   .homeImg {
-    top: -85vw;
+    top: -90vw;
   }
 
   .homeText h1 {
