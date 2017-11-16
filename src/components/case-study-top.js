@@ -9,7 +9,7 @@ export default (props) => {
       <div className='logoWork'><Link to='/'><h1>| OUR WORK</h1></Link></div>
       <div className='row1'>
         <div className='colL'>
-          <h2>{props.type} &nbsp;&nbsp;&nbsp;<span style={{color:`${props.color}`}}>{props.name}</span></h2>
+          <h2>{props.type}&nbsp;&nbsp;<span style={{color:`${props.color}`}}>{props.name}</span></h2>
           <h3>{props.headline}</h3>
           <p>{props.others}</p>
           <a style={{borderBottom:`0.5vw solid ${props.color}`}} href={props.website}>Visit website</a>
