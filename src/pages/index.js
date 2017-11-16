@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import '../css/master.css';
 
-import wordArt from '../css/word_art.svg';
+import wordArt from '../css/people.svg';
 import Works from '../components/works';
 
 export default class Index extends Component {
