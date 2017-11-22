@@ -1,0 +1,154 @@
+.formSteps {
+  position: relative;
+}
+
+.formSteps label {
+  display: block;
+  font-family: 'Source Sans Pro';
+  font-size: 2vw;
+  width: 30vw;
+  margin: 20px 0;
+}
+
+.formSteps input {
+  display: block;
+}
+
+.formSteps button {
+  display: inline-block;
+  margin-top: 5vw;
+  background-color: #656BF1;
+  color: #fff;
+  font-size: 1.5vw;
+	height: 50px;
+	width: 50px;
+  border-radius: 3px;
+}
+
+.backBtn {
+  margin-right: 60px;
+}
+
+.formIntro input {
+  height: 2.5vw;
+  width: 40vw;
+  padding: 0.75vw 1.25vw;
+  font-size: 1.5vw;
+}
+
+.radioBig, .radioSmall {
+  width: 28vw;
+  height: 8vw;
+  margin: 0;
+  opacity: 0;
+  position: relative;
+  z-index: 1000;
+}
+
+.typeOption {
+  width: 28vw;
+  height: 8vw;
+  border-radius: 0.5vw;
+  position: relative;
+  z-index: 500;
+  margin-top: -8vw;
+  margin-bottom: 2vw;
+}
+
+.typeImg {
+  float: left;
+  width: 5vw;
+  height: 5vw;
+  margin: 1.5vw 1vw;
+  background-color: #656BF1;
+}
+
+.typeInfo {
+  float: right;
+  width: 15vw;
+  height: 8vw;
+  margin-top: 1.5vw;
+  margin-right: 6vw;
+}
+
+.typeInfo h2 {
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #34495E;
+  letter-spacing: 0.06vw;
+  margin-bottom: 0.4vw;
+}
+
+.typeInfo p {
+  color: #34495E;
+  font-size: 1vw;
+}
+
+.check {
+  position: absolute;
+  right: -1vw;
+  top: -1vw;
+  background-color: #656BF1;
+  border-radius: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+  text-align: center;
+}
+
+.check i {
+  font-size: 2vw;
+  color: #fff;
+  margin-top: 0.3vw;
+}
+
+.budgetInfo {
+  letter-spacing: 0.06vw;
+  margin: 2vw;
+}
+
+.budgetInfo h2 {
+  font-weight: normal;
+  color: #34495E;
+  font-size: 1.7vw;
+  margin-bottom: 0.3vw;
+}
+
+.budgetInfo p {
+  color: #524FED;
+  font-size: 1.7vw;
+}
+
+.radioSmall {
+  width: 13vw;
+  height: 4vw;
+}
+
+.versionOption {
+  display: inline-block;
+  width: 13vw;
+  height: 4vw;
+  padding: 0.15vw;
+  margin-right: 1.5vw;
+  border-radius: 0.5vw;
+}
+
+.versionOption h2 {
+  box-sizing: border-box;
+  width: 13vw;
+  height: 4vw;
+  border-radius: 0.5vw;
+  position: relative;
+  z-index: 500;
+  margin-top: -4vw;
+  margin-bottom: 2vw;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.15vw;
+  padding-top: 0.5vw;
+  color: #454553;
+}
+
+.completeBtn {
+  width: 10vw !important;
+}

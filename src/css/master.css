@@ -187,7 +187,7 @@ a:hover {
   font-size: 1.75rem;
 }
 
-.getInTouch {
+.startProject {
   float: right;
   height: 1.25em;
   font-size: 1.25em;
@@ -198,7 +198,7 @@ a:hover {
   cursor: pointer;
 }
 
-.getInTouch a {
+.startProject a {
   color: #fff;
 }
 
@@ -417,7 +417,7 @@ a:hover {
     position: static;
   }
 
-  .getInTouch {
+  .startProject {
     display: none;
   }
 

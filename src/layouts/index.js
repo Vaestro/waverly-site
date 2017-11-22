@@ -93,14 +93,22 @@ export default class Template extends React.Component {
                   <div className='logo'>
                     <Link to='/'><h1>WAVERLY</h1> &CO</Link>
                   </div>
-                  <div className='entry2 getInTouch'>
+
+                  {/* <div className='entry2 getInTouch'>
                     <a href='https://dopeatlas.typeform.com/to/lyD8J5' target='_blank'>
                       Get in touch
                     </a>
                     <script dangerouslySetInnerHTML={{
                       __html: ` (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()`
                     }}/>
+                  </div> */}
+
+                  <div className='entry2 startProject'>
+                    <Link to='/start-a-project/'>
+                      Start a project
+                    </Link>
                   </div>
+                  
                   <div className='clear'></div>
                 </div>
 
