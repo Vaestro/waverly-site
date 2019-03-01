@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Customers from "../components/customers"
+import Customers from "../components/Customers"
 const Work = () => (
   <Layout>
     <SEO title="Page two" />
