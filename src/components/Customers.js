@@ -15,6 +15,9 @@ export default() => {
         <div className="customer column is-one-third">
           <Influencer url='https://getstoryflow.app' imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/storyflow-layouts.png")' title='Storyflow' subtitle='Create amazing stories for Instagram, Snapchat, and more' hexColor="#f3a4b5"/>
         </div>
+        <div className="customer column is-one-third">
+          <Influencer url="https://dareyouapp.com" imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/dareyou-work.png")' title='Dare You' subtitle='The challenge network' hexColor="#f3a4b5"/>
+        </div>
         <div className="column is-one-third">
           <Influencer url='https://waverlysocial.com' imgUrl='url("https://s3.amazonaws.com/flauntappbucket/waverlysocial.png")' title='Waverly Social' subtitle='Social media management agency specializing in Influencers, Models, and Photographers' hexColor="#f3a4b5"/>
         </div>
@@ -35,9 +38,6 @@ export default() => {
         </div>
         <div className="customer column is-one-third">
           <Influencer url="https://thememegod.com" imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/memes-case-study.png")' title='Memes Against Friends' subtitle='The memes party game for iOS' hexColor="#f3a4b5"/>
-        </div>
-        <div className="customer column is-one-third">
-          <Influencer url="https://dareyouapp.com" imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/dareyou-work.png")' title='Dare You' subtitle='The challenge network' hexColor="#f3a4b5"/>
         </div>
         <div className="customer column is-one-third">
           <Influencer url="https://maxwork.co" imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/maxicom-case-study.png")' title='Maxicom' subtitle='The platform to get paid for your network' hexColor="#f3a4b5"/>
