@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Waverly & Co | Software Design and Growth Marketing`,
+    description: `Waverly empowers business owners with high quality software development, marketing, and design teams necessary to launch products and services that their customers love. Our goal is to harmonize users needs and business objectives to help clients adapt and grow in the digital economy.`,
+    author: `@waverlycompany`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
