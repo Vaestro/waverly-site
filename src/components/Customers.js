@@ -22,7 +22,7 @@ export default() => {
           <Influencer url='https://waverlysocial.com' imgUrl='url("https://s3.amazonaws.com/flauntappbucket/waverlysocial.png")' title='Waverly Social' subtitle='Social media management agency specializing in Influencers, Models, and Photographers' hexColor="#f3a4b5"/>
         </div>
         <div className="customer column is-one-third">
-          <Influencer url='https://useflaunt.com' imgUrl='url("https://s3.amazonaws.com/flauntappbucket/checkout_pages@2x.png")' title='Flaunt' subtitle='Easy to use subscription creation and management tools to modernize payment collection for your business' hexColor="#f3a4b5"/>
+          <Influencer url='https://useflaunt.com' imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/flaunt-work.png")' title='Flaunt' subtitle='Easy to use subscription creation and management tools to modernize payment collection for your business' hexColor="#f3a4b5"/>
         </div>
         <div className="customer column is-one-third">
           <Influencer url='#' imgUrl='url("https://s3.amazonaws.com/waverly-marketing-site/Desktop+HD.png")' title='Allstate CMS' subtitle='Tax & Accounting Management Platform' hexColor="#f3a4b5"/>
