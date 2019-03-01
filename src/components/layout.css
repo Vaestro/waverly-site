@@ -1,0 +1,309 @@
+#first-section {
+  /* background-color: rgba(0,0,0,0.1); */
+}
+.menuBtn {
+  position: absolute;
+  right: 16px;
+  width: 45px;
+  height: 45px;
+  margin-top: 25px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  visibility: hidden;
+}
+
+.is-primary {
+  background-color: #00FFF2 !important;
+  color: black !important;
+}
+
+#openBtn {
+  z-index: 500;
+}
+
+#closeBtn {
+  background-color: #00FFF2;
+  margin-top: 35px;
+  z-index: 400;
+}
+
+#mobileMenu {
+  background-color: #00FFF2;
+  padding: 0 1rem;
+  width: 0;
+  height: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  overflow: hidden;
+}
+
+#mobileMenu a {
+  color: #fff;
+}
+
+#mobileLogo {
+  display: block;
+  width: 100px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.menuItems {
+  opacity: 0;
+}
+
+.menuItem {
+  font-size: 4rem;
+}
+
+@keyframes openMenu {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-left-radius: 100%;
+  }
+  60% {
+    width: 100vw;
+    height: 100vw;
+    border-bottom-left-radius: 100%;
+  }
+  100% {
+    width: 100vw;
+    height: 100vh;
+    border-bottom-left-radius: 0;
+  }
+}
+
+@keyframes closeMenu {
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-left-radius: 100%;
+  }
+  40% {
+    width: 100vw;
+    height: 100vw;
+    border-bottom-left-radius: 100%;
+  }
+  0% {
+    width: 100vw;
+    height: 100vh;
+    border-bottom-left-radius: 0;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes hidden {
+  100% {
+    opacity: 0
+  }
+  0% {
+    opacity: 1
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuBtn {
+    /* visibility: visible; */
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .menuItem {
+    font-size: 3rem;
+  }
+}
+
+#splashes {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-width: 950px;
+  position: absolute;
+  /* background-color: rgba(0,0,0,0.5); */
+
+  /* transform: skewY(-7deg);
+  transform-origin: 0;
+  background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%); */
+}
+
+#splashes img {
+  width: 100%;
+  position: absolute;
+  /* margin-top: 100px; */
+  bottom: 0;
+}
+
+.is-size-special {
+  font-size: 36px;
+}
+
+#text-graphic {
+  margin-top: 0px;
+}
+
+@media (min-width: 670px) {
+  .is-size-special {
+    font-size: 64px !important;
+  }
+
+  #text-graphic {
+    margin-top: 100px;
+  }
+}
+
+.Section-quote--vertical, .Section-quote--vertical blockquote {
+  margin: 0;
+}
+
+.Section-quote {
+  background: #f4f4f4;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  margin: 30px 0 60px;
+}
+
+.Section-quotePhoto--video {
+  cursor: pointer;
+  position: relative;
+}
+
+.Section-quotePhoto--glossier {
+  background-color: #eeeff1;
+
+}
+
+.Section-quotePhoto {
+  width: 100%;
+  min-height: 370px;
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+
+.Quote--glossier::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 95px;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -95px;
+  left: 0;
+}
+
+.Quote--glossier {
+  position: relative;
+  padding-top: 40px;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+}
+
+.Quote {
+  padding: 66px;
+  padding-top: 66px;
+}
+
+.Quote {
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  z-index: 5;
+  color: #fff;
+}
+
+.customers {
+  width: 100%;
+  height: 536px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+  .customers {
+    width: auto;
+    overflow-x: scroll;
+    height: auto;
+  }
+}
+
+.app-illustrations {
+  display: block;
+  position: relative;
+
+}
+
+.app-illustrations.columns {
+  display: inline-block;
+  height: inherit;
+  position: relative;
+}
+
+.app-illustrations .columns .column {
+  width: 95vw;
+}
+
+.app-illustrations:first-child .slideCol {
+  /* -webkit-animation: 30s rowup1 linear 3s infinite;
+  animation: 30s rowup1 linear 3s infinite; */
+
+
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+  .services-row {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+
+/* .custom-columns {
+  flex-direction: column-reverse;
+  display: flex;
+} */
+
+@keyframes rowup1 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-197px,0, 0);
+    transform: translate3d(-197px, 0, 0);
+    display: none;
+  }
+}
+
+@media (min-width: 670px) {
+  @keyframes rowup1 {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(-1397px,0, 0);
+      transform: translate3d(-1397px, 0, 0);
+      display: none;
+    }
+  }
+}
