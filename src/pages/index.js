@@ -30,8 +30,8 @@ const IndexPage = () => (
                   </p>
                   <br/>
                   <p className="is-size-5 ">
-                  Waverly is a software design & engineering company.
-Whatever your opportunity, we can unlock it with technology.
+                  Waverly is a software design & growth marketing company.
+                  Whatever your opportunity, we can unlock it with technology.
                   </p>
                   <br/>
 
@@ -77,7 +77,7 @@ Whatever your opportunity, we can unlock it with technology.
 
         </section>
         <section id="services">
-          <h1 className="title has-text-centered is-size-1 is-size-3-mobile">WHAT WE DO</h1>
+          <h1 className="title has-text-centered is-size-1 is-size-3-mobile">What We Offer</h1>
           <p className="subtitle has-text-centered is-size-5-mobile">We offer a variety of services that help you grow your brand and audience online</p>
 
           <Service title="Website creation and optimization" subtitle="Let our creators help you design and develop marketing pages for your website that are hyper-focused on optimizing conversions for your target audience" imgUrl="https://s3.amazonaws.com/joinswaybucket/waverly_following_services.png" type={1} moreLink="website-optimization" outsideLink={false}/>
