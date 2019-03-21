@@ -96,7 +96,7 @@ const IndexPage = () => (
                 <div className="column">
                   <div className="columns is-centered">
                     <div className="column is-10 is-narrow">
-                      <h1 className="title has-text-weight-bold is-uppercase is-size-2 is-size-3-mobile  has-text-dark">
+                      <h1 className="has-text-centered title has-text-weight-bold is-uppercase is-size-2 is-size-3-mobile  has-text-dark">
                         Get started today
                       </h1>
                     </div>
@@ -105,7 +105,7 @@ const IndexPage = () => (
                 </div>
                 <div className="column has-text-centered">
 
-                  <a className="button is-large is-dark has-text-weight-bold is-outlined" href="https://app.waverly.co" style={{
+                  <a className="button is-large is-dark has-text-weight-bold is-outlined" href="mailto:contact@waverly.co" style={{
                     padding: '30px 50px'
                   }}>
                     <p>Start now</p>

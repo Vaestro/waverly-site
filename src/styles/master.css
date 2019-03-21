@@ -16,6 +16,15 @@ p, text, textarea, li {
   color: #5E6977;
   line-height: 65px;
 }
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+  .header-title  {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+}
+
 .menuBtn {
   position: absolute;
   right: 16px;
