@@ -21,73 +21,86 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="hero-head" style={{
-          paddingTop: '10px'
-        }}>
-          <nav className="navbar is-transparent">
-            <div className="container">
-              <div className="navbar-brand">
-                <Link to="/" className="navbar-item has-text-black">
-
-                  <h1 className="subtitle has-text-bold" style={{backgroundColor:"black", color:"white", textAlign:"center", fontSize:"30px", fontWeight: "bold", padding: "10px 17.5px"}}>W</h1>
-
-                </Link>
-
-                <button id='openBtn' className='menuBtn' onClick={()=>this.openMenu()} style={{display:`${this.state.openDisplay}`}}>
-                  Menu
-                </button>
-              </div>
-
-              <div id="navMenu" className="navbar-menu" data-target="navMenu">
-                <div className="navbar-end">
+      <div className="navbar-container ">
+        <nav className="navbar navbar-expand-lg justify-content-between navbar-dark bg-primary-3 border-bottom-0" data-sticky="top">
+          <div className="container">
+            <div className="col flex-fill px-0 d-flex justify-content-between">
+              <a className="navbar-brand mr-0 fade-page" href="index.html">
+                <img src="assets/img/logo-white.svg" alt="Waverly"/>
+              </a>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
 
 
+              </button>
+            </div>
+            <div className="collapse navbar-collapse col px-0 px-lg-2 flex-fill">
+              <div className="py-2 py-lg-0">
+                <ul className="navbar-nav">
+                  <li className="nav-item dropdown">
+                    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">About</a>
+                    <div className="dropdown-menu row">
+                      <div className="col-auto" data-dropdown-content>
+                        <div className="card card-sm card-body shadow-sm"><a href="home-course.html" className="dropdown-item fade-page">Course</a><a href="home-cryptocurrency.html" className="dropdown-item fade-page">Cryptocurrency</a><a href="home-desktop-app.html" className="dropdown-item fade-page">Desktop App</a>
+                          <a
+                          href="home-event.html" className="dropdown-item fade-page">Event</a><a href="home-mobile-app.html" className="dropdown-item fade-page">Mobile App</a><Link to="/work" className="dropdown-item fade-page">Work</Link><a href="home-saas.html" className="dropdown-item fade-page">SaaS</a>
+                            <a
+                            href="home-saas-trend.html" className="dropdown-item fade-page">SaaS - Trend</a><a href="home-software-library.html" className="dropdown-item fade-page">Software Library</a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li className="nav-item dropdown">
+                    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Blog</a>
+                    <div className="dropdown-menu row">
+                      <div className="col-auto" data-dropdown-content>
+                        <div className="card card-sm card-body shadow-sm">
+                          <div className="dropdown">
+                            <a href="#" className="dropdown-item dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">
+                              <span>Blog Layouts</span>
+
+                            </a>
+                            <div className="dropdown-menu row">
+                              <div className="col-auto" data-dropdown-content>
+                                <div className="card card-sm card-body shadow"><a href="blog-cards.html" className="dropdown-item fade-page">Blog Cards</a><a href="blog-masonry.html" className="dropdown-item fade-page">Blog Masonry</a><a href="blog-sidebar.html" className="dropdown-item fade-page">Blog Sidebar</a>
+                                  <a
+                                  href="blog-magazine.html" className="dropdown-item fade-page">Blog Magazine</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="dropdown">
+                            <a href="#" className="dropdown-item dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">
+                              <span>Article Layouts</span>
 
 
-                  <span className="navbar-item">
+                            </a>
+                            <div className="dropdown-menu row">
+                              <div className="col-auto" data-dropdown-content>
+                                <div className="card card-sm card-body shadow"><a href="blog-article.html" className="dropdown-item fade-page">Article Basic</a><a href="blog-article-video.html" className="dropdown-item fade-page">Article Video</a><a href="blog-article-image-header.html" className="dropdown-item fade-page">Article Image Header</a>
+                                  <a
+                                  href="blog-article-image-header-parallax.html" className="dropdown-item fade-page">Article Image Parallax</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <Link to="/work" className="nav-link">Work</Link>
+                
+                  </li>
 
-                    <a className="button is-black is-outlined has-text-weight-bold" href="mailto:contact@waverly.co">
-                      <p>Get Started</p>
-                    </a>
-
-                  </span>
-                </div>
+                </ul>
               </div>
             </div>
-          </nav>
-        </div>
+            <div className="collapse navbar-collapse justify-content-end col flex-fill px-0"><a href="mailto:contact@waverly.co" className="btn btn-primary ml-lg-3">Contact Us</a>
 
-        <div id='mobileMenu' style={{animation:`${this.state.menuAnimation}`}}>
-          <button id='closeBtn' className='menuBtn has-text-black is-size-3' onClick={()=>this.closeMenu()} style={{display:`${this.state.closeDisplay}`}}>
-            X
-          </button>
-          <div className="menuItems" style={{animation:`${this.state.menuItemsAnimation}`}}>
-            <Link onClick={()=>this.closeMenu()} to="/" id='mobileLogo'>
-            <img src="https://s3.amazonaws.com/joinswaybucket/white_logo.png"/>
-            </Link>
-            <div className="menuItem">
-               <p className="is-size-3 subtitle has-text-weight-bold is-uppercase" style={{padding:'10px 0'}}>
-               <Link to="/work" className="navbar-item is-size-5 has-text-black" style={{
-                 color: 'black'
-               }}>
-                 Our work
-               </Link>
-
-               </p>
-            </div>
-
-            <div className="menuItem">
-            <p className="is-size-3 subtitle has-text-weight-bold is-uppercase" style={{padding:'10px 0'}}>
-
-            <a className="button is-black is-outlined has-text-weight-bold" href="mailto:contact@waverly.co">
-              <p>Get Started</p>
-            </a>
-              </p>
             </div>
           </div>
-        </div>
-
+        </nav>
       </div>
     )
   }
