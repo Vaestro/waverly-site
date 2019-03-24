@@ -7966,6 +7966,20 @@ a.card {
   a.card[class*='hover-shadow']:hover {
     transform: translate3d(-4px, -4px, 0) rotateZ(-1deg); }
 
+    .hover-shadow-3d .hover-hide {
+      display: block;
+      height: inherit;
+    }
+.hover-shadow-3d:hover .hover-hide {
+  display: none;
+  height: inherit;
+}
+.hover-shadow-3d:hover .hover-show {
+  display: block;
+}
+.hover-shadow-3d .hover-show {
+  display: none;
+}
 @media (min-width: 768px) {
   .card-icon-2 {
     min-height: 22rem; } }
@@ -10768,6 +10782,7 @@ https://flickity.metafizzy.co
 .hover-shadow-3d {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   .hover-shadow-3d:hover {
+    cursor: auto;
     box-shadow: 0.5rem 0.5rem 0 rgba(233, 236, 239, 0.5);
     transform: translate3d(-4px, -4px, 0) rotateZ(-1deg); }
 

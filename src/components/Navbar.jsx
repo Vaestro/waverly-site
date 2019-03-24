@@ -25,9 +25,9 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg justify-content-between navbar-dark bg-primary-3 border-bottom-0" data-sticky="top">
           <div className="container">
             <div className="col flex-fill px-0 d-flex justify-content-between">
-              <a className="navbar-brand mr-0 fade-page" href="index.html">
+              <Link className="navbar-brand mr-0 fade-page" to="/">
                 <img src="assets/img/logo-white.svg" alt="Waverly"/>
-              </a>
+              </Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
 
 
@@ -90,7 +90,7 @@ class Navbar extends React.Component {
                   </li>
                   <li className="nav-item dropdown">
                     <Link to="/work" className="nav-link">Work</Link>
-                
+
                   </li>
 
                 </ul>

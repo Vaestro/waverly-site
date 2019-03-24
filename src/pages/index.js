@@ -93,7 +93,17 @@ const IndexPage = () => (
                     <div className="icon-round mb-3 mb-md-4 icon bg-primary">
                       <i className="fas fa-marker"></i>
                     </div>
+                    <div className="hover-hide">
+
                     <h5 className="mb-0">Product Strategy</h5>
+                    </div>
+                    <div className="hover-show">
+                    Product Strategy
+Design Exploration
+Market Research
+Product Definition
+User Insights
+                      </div>
                   </a>
                 </div>
                 <div className="col-md-6 col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -102,7 +112,16 @@ const IndexPage = () => (
                     <i className="fas fa-pen-fancy"></i>
 
                     </div>
+                    <div className="hover-hide">
+
                     <h5 className="mb-0">Design</h5>
+                    </div>
+                    <div className="hover-show">
+                    User Experience Design<br/>
+Interaction Design<br/>
+Visual Design<br/>
+Design QA<br/>
+                      </div>
                   </a>
                 </div>
                 <div className="col-md-6 col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="300">
@@ -111,7 +130,19 @@ const IndexPage = () => (
                     <i className="fas fa-file-code"></i>
 
                     </div>
+                    <div className="hover-hide">
+
                     <h5 className="mb-0">Technology</h5>
+                    </div>
+                    <div className="hover-show">
+                    iOS & Android<br/>
+                    React Native<br/>
+                    Frontend (React)<br/>
+                    Backend (Node.js)<br/>
+                    Machine Learning<br/>
+                    AR/VR<br/>
+                    QA Testing<br/>
+                      </div>
                   </a>
                 </div>
                 <div className="col-md-6 col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="400">
@@ -120,8 +151,16 @@ const IndexPage = () => (
                     <i className="fas fa-search-dollar"></i>
 
                     </div>
+                    <div className="hover-hide">
+
                     <h5 className="mb-0">Insights</h5>
-                  </a>
+                    </div>
+                    <div className="hover-show">
+                    Target Customer Insights<br/>
+            Analytics & Metrics tracking<br/>
+            Reviews & Reports<br/>
+            Further Recommendations<br/>
+                      </div>                  </a>
                 </div>
               </div>
             </div>
@@ -132,7 +171,7 @@ const IndexPage = () => (
               <div className="col">
                 <div className="h1">Interested in collaborating?</div>
                 <div className="my-5">
-                  <a href="#" className="btn btn-lg btn-primary">Get In Touch</a>
+                  <a href="mailto:contact@waverly.co" className="btn btn-lg btn-primary">Get In Touch</a>
                 </div>
               </div>
             </div>
@@ -169,7 +208,7 @@ const IndexPage = () => (
             </div>
             <div className="row">
               <div className="col-auto">
-                <small className="text-muted">©2001-2018 All Rights Reserved. Your Brand® is a registered trademark of Your Company</small>
+                <small className="text-muted">©2014-2019 All Rights Reserved Waverly.</small>
               </div>
             </div>
           </div>

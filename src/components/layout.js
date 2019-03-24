@@ -10,8 +10,12 @@ import "../styles/theme.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Layout = ({ children }) => (
-
+class Layout extends React.Component {
+  componentDidMount() {
+    AOS.init()
+  }
+  render() {
+    return (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -26,13 +30,14 @@ const Layout = ({ children }) => (
       <>
         <Navbar />
         <div>
-        {AOS.init()}
-          <main>{children}</main>
+          <main>{this.props.children}</main>
         </div>
       </>
     )}
   />
 )
+}
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
