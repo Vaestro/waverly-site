@@ -45,28 +45,28 @@ const IndexPage = () => (
           <div className="container">
             <div className="row">
               <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-                <a href="#">
+                <a href="https://socialspeedster.com">
                   <img src="https://s3.amazonaws.com/waverly-marketing-site/socialspeedster-work.png" alt="Leap iOS" className="rounded mb-3"/>
                 </a>
-                <a href="#">
+                <a href="https://socialspeedster.com">
                   <h4 className="mb-0">Social Speedster</h4>
                   <div className="text-small text-muted">Web Application</div>
                 </a>
               </div>
               <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-                <a href="#">
+              <a href="https://dareyouapp.com">
                 <img src="https://s3.amazonaws.com/waverly-marketing-site/dareyou-work.png" alt="Dare You" className="rounded mb-3"/>
                 </a>
-                <a href="#">
+                <a href="https://dareyouapp.com">
                   <h4 className="mb-0">Dare You</h4>
                   <div className="text-small text-muted">Mobile Application</div>
                 </a>
               </div>
               <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-                <a href="#">
-                <img src="https://s3.amazonaws.com/waverly-marketing-site/storyflow-layouts.png" alt="Flaunt" className="rounded mb-3"/>
+              <a href="https://getstoryflow.app">
+                <img src="https://s3.amazonaws.com/waverly-marketing-site/storyflow-layouts.png" alt="Storyflow" className="rounded mb-3"/>
                 </a>
-                <a href="#">
+                <a href="https://getstoryflow.app">
                   <h4 className="mb-0">Storyflow</h4>
                   <div className="text-small text-muted">Mobile Application</div>
                 </a>
