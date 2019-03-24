@@ -27,7 +27,7 @@ class Navbar extends React.Component {
             <div className="col flex-fill px-0 d-flex justify-content-between">
               <Link className="navbar-brand mr-0 fade-page" to="/">
 
-                <img src="https://s3.amazonaws.com/waverly-marketing-site/logo.png" alt="Waverly"/>
+                <img src="https://s3.amazonaws.com/waverly-marketing-site/logo.png" alt="Waverly" width={60} height={60}/>
 
               </Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">

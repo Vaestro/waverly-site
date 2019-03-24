@@ -98,11 +98,11 @@ const IndexPage = () => (
                     <h5 className="mb-0">Product Strategy</h5>
                     </div>
                     <div className="hover-show">
-                    Product Strategy
-Design Exploration
-Market Research
-Product Definition
-User Insights
+                    Product Strategy<br/>
+Design Exploration<br/>
+Market Research<br/>
+Product Definition<br/>
+User Insights<br/>
                       </div>
                   </a>
                 </div>
