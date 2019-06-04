@@ -21,73 +21,36 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="hero-head" style={{
-          paddingTop: '10px'
-        }}>
-          <nav className="navbar is-transparent">
-            <div className="container">
-              <div className="navbar-brand">
-                <Link to="/" className="navbar-item has-text-black">
+      <div className="navbar-container ">
+        <nav className="navbar navbar-expand-lg justify-content-between navbar-dark bg-primary-3 border-bottom-0" data-sticky="top">
+          <div className="container">
+            <div className="col flex-fill px-0 d-flex justify-content-between">
+              <Link className="navbar-brand mr-0 fade-page" to="/">
 
-                  <h1 className="subtitle has-text-bold" style={{backgroundColor:"black", color:"white", textAlign:"center", fontSize:"30px", fontWeight: "bold", padding: "10px 17.5px"}}>W</h1>
+                <img src="https://s3.amazonaws.com/waverly-marketing-site/logo.png" alt="Waverly" width={60} height={60}/>
 
-                </Link>
-
-                <button id='openBtn' className='menuBtn' onClick={()=>this.openMenu()} style={{display:`${this.state.openDisplay}`}}>
-                  Menu
-                </button>
-              </div>
-
-              <div id="navMenu" className="navbar-menu" data-target="navMenu">
-                <div className="navbar-end">
+              </Link>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
 
 
+              </button>
+            </div>
+            <div className="collapse navbar-collapse col px-0 px-lg-2 flex-fill">
+              <div className="py-2 py-lg-0">
+                <ul className="navbar-nav">
+                  <li className="nav-item dropdown">
+                    <Link to="/work" className="nav-link">Work</Link>
 
+                  </li>
 
-                  <span className="navbar-item">
-
-                    <a className="button is-black is-outlined has-text-weight-bold" href="mailto:contact@waverly.co">
-                      <p>Get Started</p>
-                    </a>
-
-                  </span>
-                </div>
+                </ul>
               </div>
             </div>
-          </nav>
-        </div>
+            <div className="collapse navbar-collapse justify-content-end col flex-fill px-0"><a href="mailto:contact@waverly.co" className="btn btn-primary ml-lg-3">Contact Us</a>
 
-        <div id='mobileMenu' style={{animation:`${this.state.menuAnimation}`}}>
-          <button id='closeBtn' className='menuBtn has-text-black is-size-3' onClick={()=>this.closeMenu()} style={{display:`${this.state.closeDisplay}`}}>
-            X
-          </button>
-          <div className="menuItems" style={{animation:`${this.state.menuItemsAnimation}`}}>
-            <Link onClick={()=>this.closeMenu()} to="/" id='mobileLogo'>
-            <img src="https://s3.amazonaws.com/joinswaybucket/white_logo.png"/>
-            </Link>
-            <div className="menuItem">
-               <p className="is-size-3 subtitle has-text-weight-bold is-uppercase" style={{padding:'10px 0'}}>
-               <Link to="/work" className="navbar-item is-size-5 has-text-black" style={{
-                 color: 'black'
-               }}>
-                 Our work
-               </Link>
-
-               </p>
-            </div>
-
-            <div className="menuItem">
-            <p className="is-size-3 subtitle has-text-weight-bold is-uppercase" style={{padding:'10px 0'}}>
-
-            <a className="button is-black is-outlined has-text-weight-bold" href="mailto:contact@waverly.co">
-              <p>Get Started</p>
-            </a>
-              </p>
             </div>
           </div>
-        </div>
-
+        </nav>
       </div>
     )
   }
